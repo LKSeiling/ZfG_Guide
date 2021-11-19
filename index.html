@@ -1,14 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="de">
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="style.css">
-        <script src="main.js"></script> 
         <title>Gleichstellung - Auch Männersache! Ein Guide zum Handeln</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
-    <body>
+    <body class="body">
+        <div class="nav-section level1 header" id="img_header">
+            <img class="nav-icon" src="img/nav/prev.png" alt="vorheriges Kapitel">
+        </div>
         <section id="all-text">
-            <div id="index">
+            <div class="nav-section level1" id="index">
                 <div class ="chapter-top">
                     <img src="img/text/h_bckgrnd.png" alt="gezeichneter Hintergrund">
                     <div class="chapter-heading-1l">
@@ -35,10 +38,9 @@
                 <a href="#readon"><h4>Zum Weiterlesen</h4></a>
                 <a href="#sources"><h4>Quellenangaben</h4></a>
             </div>
-            
-                       
-            <div class="chapter" id="intro">
-                <h2>Einleitung</h2>
+                  
+            <div class="nav-section level1" id="intro">
+                <h2 class="heading">Einleitung</h2>
                 <div class ="chapter-top">
                     <img src="img/text/h_bckgrnd.png" alt="gezeichneter Hintergrund">
                     <div class="chapter-heading">
@@ -46,172 +48,889 @@
                     </div>                    
                 </div>
                 
-                <p class="main-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam maximus urna in est tempor, ut pharetra nisl malesuada. Fusce erat sapien, tincidunt ac felis a, dignissim cursus eros. Nam ac ultrices enim. Cras accumsan et erat non blandit. Etiam rutrum hendrerit neque mollis ultrices. In ac volutpat purus. Nam tincidunt libero at purus commodo rhoncus. Donec dictum tincidunt tellus a viverra. Morbi elementum feugiat ligula, non varius neque hendrerit ac. Pellentesque scelerisque mauris ut volutpat efficitur. Vestibulum tincidunt ultricies blandit. </p>
+                <div class="main-text">  
+                    <p>
+                        <b>Liebe Männer</b>,
+                        <br><br>
+                        wir sind froh, dass ihr euch mit der Gleichstellung der Geschlechter beschäftigt. Denn die Diskriminierung aufgrund des Geschlechts ist immer noch ein alltägliches Phänomen. Es gibt zwar langsam Fortschritte hin zu Geschlechtergerechtigkeit, doch welche Möglichkeiten einer Person im Leben offen stehen, hängt immer noch maßgeblich von ihrem Geschlecht ab. Das wollen wir ändern.<br>
+                        Wir glauben, dass wir Geschlechtergerechtigkeit nur mit eurer Beteiligung erreichen können und allen Menschen auf diese Weise unabhängig von ihrem Geschlecht eine freie Entfaltung ermöglicht wird. Es geht aber nicht darum, dass Männer weniger Chancen haben sollen, sich zu verwirklichen – im Gegenteil: auch Männer profitieren von einer geschlechtergerechten Gesellschaft. In dieser wird von ihnen nicht erwartet, immer dominant sein und beispielsweise beim Flirten den ersten Schritt machen zu müssen. Männer werden als genauso wichtiger Elternteil anerkannt, können unbeschränkt ihre Gefühle zeigen ohne abgewertet zu werden und sind von einschränkenden Rollenerwartungen befreit.<br>
+                        Deshalb haben wir diesen Guide geschrieben. Mit ihm wollen wir Praxistipps geben, wie man(n) Gleichstellung in verschiedenen Lebensbereichen fördern kann – egal, ob auf der Arbeit, in Männerrunden oder im Bett. Die einzelnen Kapitel sind unabhängig voneinander. Es ist also egal, wo ihr zu lesen beginnt.
+                        Im Text beziehen wir uns manchmal auf wissenschaftliche Studien oder andere Quellen, die ihr am Ende gesammelt findet.
+                        <br><br>
+                        Beim Lesen gilt wie immer: Die Welt ist komplex. Nicht jede Methode oder jeder Vorschlag passt auf jede Situation. Manches mögt ihr kritisch sehen, anderes super finden. Unabhängig davon liegt der Ball jetzt bei euch – probiert aus, mixt, wendet an oder schickt uns eigene Vorschläge, Kommentare und Ergänzungen an unsere Email!. 
+                        <br><br>
+                        Wir wünschen euch viel Spaß beim Lesen und aktiv werden!   
+                        <br><br>
+                        Euer Kollektiv Zusammen für Gleichstellung
+                        aka Lukas, Charlotte, Matthias, Jenny und Peter
+                        <br><br>
+                        P.S.: Vor drei Jahren haben wir bereits eine Broschüre zum Thema Gleichstellung veröffentlicht. Sie bietet vor allem kurze Handlungsimpulse für Männer. Hier findet ihr die sie sowie weitere Informationen zu uns als Kollektiv.
+                        <br><br>
+                    </p>
+                    <div class="nav-section level2" id="intro-2"> 
+                        <br><br>
+                        <p>
+                            <b>Liebe:r nicht-binäre:r Leser:in,<br>
+                            liebe:r nicht-heteronormativ Liebende:r,</b>
+                            </br></br>
+                            Unsere Lebensrealität ist heteronormativ und binär geprägt. Wir versuchen mit diesem Guide einen Spagat zwischen dem Anknüpfen an binäre Lebensvorstellungen auf der einen und Perspektivenerweiterung auf der anderen Seite. Daher betrachten wir das Verhältnis von Personen, die sich als Frauen oder Männer identifizieren, oder in bestimmten Situationen als solche gelesen werden. Viele der Inhalte können auch auf nicht-binäre Personen oder nicht-heteronormativ Liebende zutreffen, andere aber weniger. Werft doch selbst einen Blick hinein!
+                        </p>
+                    </div>
+
+                    <div class="nav-section level2" id="intro-3"> 
+                        <div class="all-in-all">
+                            <div class="chapter-icon">
+                                <img class="circle" src="img/text/circle.png" alt="gezeichneter Kreis">
+                                <img class="icon" src="img/text/chptrs/act.png" alt="gezeichnete Faust">
+        
+                            </div>
+                            <div class="all-in-all-text">
+                                <p></pr><b>Warum wir gendern:</b><br></p>
+                                <p>In diesem Guide verwenden wir eine Form gendergerechter Sprache. Das tun wir, weil Sprache eine Auswirkung darauf hat, wie wir uns die Welt vorstellen.<sup><a href="#intro-s1">1</a></sup> Im Deutschen ist das “generische Maskulinum” weit verbreitet. Dabei wird immer die männliche Form benutzt, wenn von mehreren Menschen gesprochen wird. Folglich wird eher an Männer und Männergruppen gedacht<sup><a href="#intro-s2">2</a>,<a href="#intro-s3">3</a></sup> und Frauen werden unsichtbar. Um die Vielfalt der Gesellschaft abzubilden, wollen wir diese auch sprachlich sichtbar machen.<br>Deshalb gendern wir und schreiben nicht “Ärzte” oder “Ärzte und Ärztinnen”, sondern “Ärzt:innen”. Das kombiniert nicht nur die männliche und weibliche Schreibweise. Es lässt durch den Doppelpunkt auch Platz für Menschen, die sich nicht eindeutig Männern oder Frauen zuordnen.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>   
             </div>
 
-            <div class="chapter" id="conversations">
-                <h2>Was können Männer konkret tun</h2>
-                <div class ="chapter-top">
-                    <img src="img/text/h_bckgrnd.png" alt="gezeichneter Hintergrund">
-                    <div class="chapter-heading">
-                        <h1>Mit anderen ins Gespräch kommen</h1>
-                    </div>                    
-                </div>
-
-                <div class="all-in-all">
-                    <!-- <img src="img/text/all_in_all1.png" alt="gezeichnete Box"> -->
-                    <div class="chapter-icon">
-                        <img class="circle" src="img/text/circle.png" alt="gezeichneter Kreis">
-                        <img class="icon" src="img/text/chptrs/act.png" alt="gezeichnete Faust">
-
-                    </div>
-                    <div class="all-in-all-text">
-                        <p>Um mit anderen über Gleichstellung in das Gespräch zu kommen, kannst Du persönliche Bezüge herstellen, indem Du auf die <b>Kraft von Geschichten</b> zurückgreifst. Manchmal helfen allerdings auch eher <b>Sachinformationen und Fachwissen</b> weiter, um die Relevanz von Gleichstellung darlegen zu können. Es bietet sich an, wichtige <b>Informationen zu sammeln</b> und stets <b>auf der Suche nach neuem Wissen</b> zu sein. Manchmal helfen allerdings weder Sachinformationen noch Geschichten weiter. Hier kann Dir ein <b>näherer Blick auf die Bedürfnisses des Gegenübers</b> helfen, um Widerstände abzubauen und einen Dialog zu eröffnen.</p>
+            <div class="nav-section level1" id="conversations">    
+                <div class="chapter">
+                    <h2 class="heading" >Was können Männer konkret tun</h2>
+                    <div class ="chapter-top">
+                        <img src="img/text/h_bckgrnd.png" alt="gezeichneter Hintergrund">
+                        <div class="chapter-heading">
+                            <h1>Mit anderen ins Gespräch kommen</h1>
+                        </div>                    
                     </div>
                     
+                    <div class="main-text">
+                        <div class="all-in-all">
+                            <div class="chapter-icon">
+                                <img class="circle" src="img/text/circle.png" alt="gezeichneter Kreis">
+                                <img class="icon" src="img/text/chptrs/act.png" alt="gezeichnete Faust">
+        
+                            </div>
+                            <div class="all-in-all-text">
+                                <p>Um mit anderen über Gleichstellung in das Gespräch zu kommen, kannst Du persönliche Bezüge herstellen, indem Du auf die <b>Kraft von Geschichten</b> zurückgreifst. Manchmal helfen allerdings auch eher <b>Sachinformationen und Fachwissen</b> weiter, um die Relevanz von Gleichstellung darlegen zu können. Es bietet sich an, wichtige <b>Informationen zu sammeln</b> und stets <b>auf der Suche nach neuem Wissen</b> zu sein. Manchmal helfen allerdings weder Sachinformationen noch Geschichten weiter. Hier kann Dir ein <b>näherer Blick auf die Bedürfnisses des Gegenübers</b> helfen, um Widerstände abzubauen und einen Dialog zu eröffnen.</p>
+                            </div>
+                            
+                        </div>
+
+                        <p>Häufig beginnt das Interesse an Gleichstellung aus persönlichen Gesprächen heraus. Gute Unterhaltungen bieten großes Potential, um Veränderung im Kleinen zu bewirken. Allerdings ist Gleichstellung oft ein unbeliebtes Thema, besonders in Männerrunden. Wie kommt trotzdem ein Gespräch zustande? Wie kann zur Veränderung angeregt werden? Folgende Anregungen können Dir helfen, den Gesprächseinstieg zu erleichtern:</p>
+                        <div class="nav-section level2"  id="conversations-1">
+                            <h4 class="heading subheading">Die Power (D)einer Story</h4>
+                            <p>Gespräche über Gleichstellung können schnell abstrakt werden. Oft sind Fachbegriffe und komplizierte Theorien involviert. Unterhaltungen entfernen sich so schnell vom Alltagsverständnis. Dagegen hilft, aus der eigenen oder der Erfahrung von anderen zu erzählen. Hast Du selbst Sexismus erlebt? Oder haben Deine Eltern, Geschwister, Freund:innen Erfahrungen damit gemacht? Erzählt diese Geschichten! Indem ihr Alltagssexismus sichtbar wird, rückt er näher an die Lebenswelt heran. Es wird schwer Distanz zu bewahren und das verursachte Leid wird spürbar. Wenn wir einen persönlichen Bezug haben, sind uns Menschen und deren Gefühle wichtiger.</p>
+                            <br>
+                            <div class="notice">
+                                <p><i>Aber Achtung bei Geschichten anderer:</i> Nicht jede Person möchte, dass andere ihre Erlebnisse weitererzählen. Frage doch vorher, mit wem und in welcher Form Du Geschichten anderer teilen darfst.</p>
+                            </div>
+                        </div>
+
+                        <div class="nav-section level2"  id="conversations-2">
+                            <h4 class="heading subheading">Argumentieren mit und Sammeln von Fachwissen</h4>
+                            <p>“Das sind doch nur Einzelfälle” – wird schnell auf persönliche Geschichten entgegnet. Erfahrungen seien zufällig oder Einzelfälle. Bei so einem Einwand hilft es, Fachwissen parat zu haben. Verweise auf Fachartikel, Bücher oder Expert:innen. Das Problem dabei: die Einarbeitung kostet Zeit und ist mühsam. Vielleicht macht es Dir einer dieser Tipps trotzdem einfacher:</p>
+                            <ul>
+                                <li>Du tust Dich schwer damit, geeignete Artikel zu finden? Manchmal braucht es nur die richtigen Stichwörter. Folgende können gute Ausgangspunkte für eine Suche im Internet sein: <i>Argumentationshilfe Antifeminismus, Gender Care Gap, Mental Load, Queere Theorie, Intersektionalität, Hegemoniale Männlichkeit, Männlicher Habitus, Toxische Männlichkeit</i></li>
+                                <li>Du hast einen guten Artikel, ein Video oder einen Podcast im Internet gesehen? Setz Dir ein Lesezeichen oder lade ihn runter! So schaffst Du Dir schnell deine eigene Bibliothek.</li>
+                                <li>Alternativ: mach doch mal einen Abstecher in die nächstgelegene Buchhandlung oder Bücherei und informiere Dich dort!<br>Am Ende der Broschüre haben wir außerdem noch weitere Literatur- und Linkempfehlungen für Dich zusammengestellt!</li>
+                            </ul>
+                            <div class="notice">
+                                <p><i>Aber Achtung:</i> Aus großem Wissen folgt große Verantwortung. Es geht darum gemeinsam an Gleichstellung zu arbeiten und nicht darum, mehr Bildung als andere zu haben.</p>
+                            </div>
+                        </div>
+
+                        <div class="nav-section level2"  id="conversations-3">
+                            <h4 class="heading subheading">Gemeinsam Filme und Serien gucken</h4>
+                            <p>Natürlich kannst Du das Thema Geschlechtergerechtigkeit direkt ansprechen und Freund:innen mit zu Vorträgen, Dokumentationen oder Demonstrationen nehmen. Es geht aber auch subtiler: Ein Film mit feministischem Hintergrund liefert direkt eine gute Diskussionsgrundlage! Im Kapitel zum Weiterlesen findest Du Filme und Serien, die für Gesprächsstoff sorgen!</p>
+                        </div>
+
+                        <div class="nav-section level2"  id="conversations-4">
+                            <h4 class="heading subheading" >Bedürfnisse erkennen</h4>
+                            <p>Nicht alle Personen reagieren auf Argumente. Besonders in Diskussionen wird schnell aneinander vorbeigeredet. Oft lohnt es sich zu fragen, ob die Person wirklich etwas gegen Geschlechtergerechtigkeit hat oder ob sie eigentlich etwas anderes bewegt.
+                            <br><br>
+                            Ein Beispiel: Im Kreis mit Freund:innen diskutiert ihr die letzte Broschüre “Gleichstellung - auch Männersache!”. Du liest folgenden Impuls vor: “Beim Flirt akzeptieren ich ein 'Nein, Danke‘!“ Ein Freund von Dir antwortet spöttisch: “Wie, darf man nun keine Frauen mehr anflirten?”. Wie könntest Du reagieren?</p>
+
+                            <div class=" options-wrapper">
+                                <div class="option option-of-2">
+                                    <h2>Harte Kante zeigen</h2>
+                                    <br>
+                                    <p>Du erwiderst, “Es geht nicht darum, dass Du nicht mehr flirten darfst. Es geht um das Problem der sexuellen Übergriffe, denen Frauen ausgesetzt sind“.<br><br>Dein Freund antwortet, „Übergriffig bin ich nicht. Das hat doch alles nichts mit mir zu tun“.<br><br>Du antwortest, „Das geht alle etwas an, auch Dich! Ich finde es falsch, sich keine Gedanken darüber zu machen“.<br><br>Du zeigst anderem in Raum, dass Du es sehr wohl wichtig findest. Gleichzeitig findest Du mit deinem Freund keinen Dialog.</p>
+                                    <br>
+                                    <p><i>Resultat: Du beziehst Stellung</i></p>
+                                </div>
+
+                                <div class="option option-of-2">
+                                    <h2>Bedürfnisse erkennen</h2>
+                                    <br>
+                                    <p>Du fragst, „Was meinst Du damit?“.<br><br>Er antwortet, „Naja, wenn ich den Impuls der Broschüre umsetze, lerne ich ja nie eine Frau kennen“.<br><br>Du erkennst das Bedürfnis Deines Freundes nach einer Beziehung und seine Unsicherheit, ob er auch mit einem anderen Flirtverhalten eine Partnerin finden kann. Nun könntest Du beispielsweise Deine eigene Geschichte teilen:<br><br>„Das kann ich verstehen. Am Anfang war ich auch unsicher, wie ich jemanden kennen lernen kann. Aber dann habe ich das Gegenteil festgestellt. Es war nämlich so, …“.</p>
+                                    <br>
+                                    <p><i>Resultat: Vorbehalte werden abgebaut</i></p>
+                                </div>
+                            </div>
+                            <p>Beide Wege des Gesprächs haben ihre Vor- und Nachteile. Oft zeigen Menschen eher harte Kante, anstatt sich Gedanken um die Bedürfnisse des Gegenübers zu machen. Auf diese einzugehen, eröffnet die Möglichkeit, direkt an dem Widerstand der anderen Person anzuknüpfen. Im Dialog könnt ihr zugrunde liegende Gefühle und Ängste erkennen und gemeinsam bewältigen! </p>
+                        </div>
+                    </div> 
                 </div>
-                
-                <p class="main-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam maximus urna in est tempor, ut pharetra nisl malesuada. Fusce erat sapien, tincidunt ac felis a, dignissim cursus eros. Nam ac ultrices enim. Cras accumsan et erat non blandit. Etiam rutrum hendrerit neque mollis ultrices. In ac volutpat purus. Nam tincidunt libero at purus commodo rhoncus. Donec dictum tincidunt tellus a viverra. Morbi elementum feugiat ligula, non varius neque hendrerit ac. Pellentesque scelerisque mauris ut volutpat efficitur. Vestibulum tincidunt ultricies blandit. </p>
             </div>
             
-            <div class="chapter" id ="work">
-                <h2>Was können Männer konkret tun</h2>
-                <div class ="chapter-top">
-                    <img src="img/text/h_bckgrnd.png" alt="gezeichneter Hintergrund">
-                    <div class="chapter-heading-1l">
-                        <h1>Arbeitsleben</h1>
-                    </div>                    
-                </div>
+            <div class="nav-section level1" id="work">   
+                <div class="chapter">
+                    <h2 class="heading">Was können Männer konkret tun</h2>
+                    <div class ="chapter-top">
+                        <img src="img/text/h_bckgrnd.png" alt="gezeichneter Hintergrund">
+                        <div class="chapter-heading-1l">
+                            <h1>Arbeitsleben</h1>
+                        </div>                    
+                    </div>
 
-                <p class="main-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam maximus urna in est tempor, ut pharetra nisl malesuada. Fusce erat sapien, tincidunt ac felis a, dignissim cursus eros. Nam ac ultrices enim. Cras accumsan et erat non blandit. Etiam rutrum hendrerit neque mollis ultrices. In ac volutpat purus. Nam tincidunt libero at purus commodo rhoncus. Donec dictum tincidunt tellus a viverra. Morbi elementum feugiat ligula, non varius neque hendrerit ac. Pellentesque scelerisque mauris ut volutpat efficitur. Vestibulum tincidunt ultricies blandit. </p>
+                    <div class="main-text">
+                        <div class="all-in-all">
+                            <div class="chapter-icon">
+                                <img class="circle" src="img/text/circle.png" alt="gezeichneter Kreis">
+                                <img class="icon" src="img/text/chptrs/act.png" alt="gezeichnete Faust">
 
-            </div>  
+                            </div>
+                            <div class="all-in-all-text">
+                                <p>Du kannst Frauen am Arbeitsplatz unterstützen, indem Du Dich für einen <b>gerechten Einstellungsprozess</b>, <b>Frauenförderung</b> und eine <b>inklusive Arbeitskultur</b> einsetzt. Letzteres bedeutet mehr <b>Berücksichtigung von Frauen in Gruppengesprächen</b> und <b>familienfreundliche Unternehmenskulturen</b>. <b>Sexueller Belästigung</b> am Arbeitsplatz solltest Du entschieden <b>entgegentreten</b>.</p>
+                            </div>
+                        </div>
 
-            <div class="chapter" id="relationships">
-                <h2>Was können Männer konkret tun</h2>
-                <div class ="chapter-top">
-                    <img src="img/text/h_bckgrnd.png" alt="gezeichneter Hintergrund">
-                    <div class="chapter-heading">
-                        <h1>Beziehung und Partner:innenschaften</h1>
-                    </div>                    
-                </div>
+                        <p>Männer haben im Wirtschaftsleben meist höhere Positionen<sup><a  href="#work-s1">1</a></sup>, verdienen mehr<sup><a href="#work-s2">2</a></sup> und arbeiten häufiger in Vollzeit<sup><a href="#work-s3">3</a></sup> als Frauen. Dies ist das Ergebnis eines langen historischen Prozesses. Zwischen Ende des späten Mittelalters und der Moderne fand die Erwerbsarbeit vor allem im Haushalt statt. Alle Familienmitglieder waren daran beteiligt. Mit der Industrialisierung kam das Idealbild auf, dass Männer für die Erwerbsarbeit und Frauen für die Kinder und den Haushalt zuständig sind. Dies wurde auch gesetzlich festgehalten. So durften Frauen bis 1977 in Westdeutschland nur arbeiten, wenn  das “mit den Pflichten von Familie und Ehe vereinbar war”. Bis 1986 stand im  bürgerlichen Gesetzbuch, dass der Hauptberuf der Frau der Haushalt ist.<sup><a href="#work-s4">4</a>,<a href="#work-s5">5</a></sup> Frauen wurden so systematisch aus der Erwerbsarbeit und Männer aus der Familie herausgehalten. Das wirkt immer noch nach. So bestimmt die Geschlechtszugehörigkeit weiterhin, welche Möglichkeiten wir auf dem Arbeitsmarkt haben, welche Berufe uns zugetraut werden und welche Verdienstmöglichkeiten Menschen haben. Zeit, dass sich was ändert! Welche Handlungsmöglichkeiten Du in deinem Arbeitsleben hast, hängt natürlich stark von deiner beruflichen Position und Branche ab. Anbei findest Du einige Anregungen, welche Dir helfen können.</p>
 
+                        <div class="nav-section level2"  id="work-1">
+                            <h4 class="heading subheading">Einstellungsverfahren fair gestalten</h4>
+                            <p>In manchen Berufen und Positionen findet man fast nur oder überwiegend Frauen oder Männer. Woran meinst Du, kann das liegen?<br>Ein Grund dafür können Einstellungsverfahren sein, bei denen Frauen eher in schlechtere und Männer in bessere berufliche Positionen kommen.. In den Verfahren müssen sich Frauen häufig besser präsentieren, damit sie gleich gut bewertet werden wie Männer. Das liegt auch daran, dass öfter Männer entscheiden, wer eingestellt wird und eher Menschen bevorzugen, die ihnen ähneln.<sup><a href="#work-s6">6</a></sup><br>Um Einstellungen fairer zu gestalten, kannst Du Dich im Unternehmen dafür einsetzen, gemischtgeschlechtliche Auswahl-Teams zu haben. Dabei garantiert aber auch eine 50:50-Besetzung nicht automatisch ein faires Verfahren, da auch Frauen die historisch gewachsenen Vorurteile oft mittragen.<sup><a href="#work-s7">7</a></sup> Hier können Schulungen zu Diversität oder zum “Unconscious Bias” helfen. In Einstellungsverfahren könnt ihr außerdem Informationen wie Geschlecht, Aussehen, Hautfarbe oder Wohnort schwärzen, weil die für den Job unrelevant sind und zu Vorurteilen führen. Auch kann es wichtig sein, bei Stellenausschreibungen zu berücksichtigen, wie diese formuliert sind. Bestimmte Eigenschaften sind so stark männlich konnotiert (“analytisches Denken”, „Durchsetzungsvermögen”, ...), dass Frauen sich beim Lesen einer solchen Stellenanzeige weniger  angesprochen fühlen und bewerben.<sup><a href="#work-s8">8</a></sup> Solche Beschreibungen sollten deshalb nicht vorkommen.</p>
+                        </div>
+                        
+                        <div class="nav-section level2"  id="work-2">
+                            <h4 class="heading subheading">Frauen fördern</h4>
+                            <p>Um im Berufsleben weiter zu kommen, ist die Unterstützung von anderen wichtig. Dabei zeigt sich, dass Frauen weniger ausführliche und weniger spezifische Empfehlungsschreiben bekommen. Ihre Empfehlungsschreiben enthalten weniger Statusbegriffe und ihnen wird eher Sozial- und Männern Fachkompetenz zugeschrieben.<sup><a href="#work-s9">9</a>,<a href="#work-s10">10</a></sup> Zusätzlich bekommen Frauen weniger Feedback als Männer, was ihnen die Möglichkeit nimmt, sich gezielt weiterzuentwickeln.<sup><a href="#work-s11">11</a></sup> Dem kannst Du entgegenwirken, indem Du darauf achtest, Mitarbeiterinnen gleich viel Feedback zu geben wie Mitarbeitern. Ferner gehört auch zur Frauenförderung der Abbau von Vorurteilen über männliche und weibliche Berufe. Um diese erreichen, können Firmen mit überproportional vielen Männer einen Girls’ Day für Schülerinnen organisieren.</p>
+                        </div>
 
-                <p class="main-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam maximus urna in est tempor, ut pharetra nisl malesuada. Fusce erat sapien, tincidunt ac felis a, dignissim cursus eros. Nam ac ultrices enim. Cras accumsan et erat non blandit. Etiam rutrum hendrerit neque mollis ultrices. In ac volutpat purus. Nam tincidunt libero at purus commodo rhoncus. Donec dictum tincidunt tellus a viverra. Morbi elementum feugiat ligula, non varius neque hendrerit ac. Pellentesque scelerisque mauris ut volutpat efficitur. Vestibulum tincidunt ultricies blandit. </p>
+                        <div class="nav-section level2"  id="work-3">
+                            <h4 class="heading subheading">Sexuelle Belästigung die rote Karte zeigen</h4>
+                            <p>Sexuelle Belästigung kann bereits stattfinden, wenn jemand unabgesprochen berührt oder Kosenamen und Verniedlichungen benutzt werden. Dies betrifft auch Hinterherpfeifen und sexistische Witze. In Deutschland hat allein in den letzten drei Jahren jede achte Frau sexuelle Belästigung am Arbeitsplatz erlebt.<sup><a href="#work-s12">12</a></sup> Um dem im Unternehmen zu begegnen, kannst Du Dich auf organisatorischer Ebene für Kurse zur Sensibilisierung gegen Sexismus und sexuelle Gewalt und ein niederschwelliges Beschwerdeverfahren einsetzen. Auf persönlicher Ebene ist es wichtig, diejenigen zu unterstützen, die sexuell belästigt werden. Das kannst Du tun, indem Du zeigst, dass Du das Thema ernst nimmst und Betroffenen deine Unterstützung anbietest. Schau dazu auch ins Kapitel ‘Interventionen im Alltag’. Achte bei der Unterstützung allerdings darauf, die Bedürfnisse der betroffenen Person in den Mittelpunkt Deines Handelns zu stellen.</p>
+                        </div>
+
+                        <div class="nav-section level2"  id="work-4">
+                            <h4 class="heading subheading">Inklusive Arbeitskultur</h4>
+                            <p>Kaffee kochen, Grußkarten schreiben, Material nachbestellen, Kalender für Geburtstage anfertigen und vieles mehr. Diese Aufgaben kosten Zeit und Konzentration, werden nicht entlohnt und bleiben meistens an Frauen hängen. Wahrscheinlich weil sie mit Haushalt und Kümmern verbunden werden. Um herauszufinden, ob das auch bei Dir auf der Arbeit so ist, gibt es folgendes Experiment: Notiert einen Monat lang, wer solche Aufgaben übernimmt. Ist die Arbeit gleich verteilt? Wenn nein, was sind die Gründe dafür? Diese Diskussion kann den Anstoß geben, die Verteilung gerecht auszuhandeln.<br><br>Inklusive Arbeitskultur ist auch in Gruppen wichtig: Ab einer Gruppengröße von 6 Personen haben Männer mehr Redeanteile als Frauen.<sup><a href="#work-s13">13</a><a href="#work-s14">14</a></sup> Ist dir das schon einmal aufgefallen? Häufiger trauen  sich Frauen nicht, Beiträge einzubringen, wenn Männer anwesend sind. Auf der Arbeit kannst Du gezielt darauf achten, Frauen genügend Freiräume zum Reden zu ermöglichen, die Beiträge wertzuschätzen und aktiv Meinungen derjenigen einzuholen, die zuvor wenig gesagt haben. Wer mal nachmessen möchte: die App “Time to Talk”<sup><a href="#work-s15">15</a></sup> misst den Redeanteil von Frauen und Männern in Gruppengesprächen.<br><br>Um soziale Events inklusiv zu gestalten, können zum Beispiel auch Personen in Elternzeit eingeladen werden um weiter im Kontakt zu bleiben. Oder für diejenigen mit Kindern eine Kinderbetreuung vor Ort zu haben. Generell sollte man Rücksicht auf unterschiedliche Belange der Belegschaft nehmen, auch wenn das zum Beispiel heißt, für Schwangere, Stillende oder religiöse Menschen auf Firmenevents zu verzichten, welche sich rein um Alkohol drehen.<br><br>Problematisch für die Vereinbarkeit von Familie und Beruf sind oft Termine, die zu Kinderbring- und Abholzeiten aus dem Kindergarten und Hort stattfinden. Da kann es helfen, für frühe Treffen die Anwesenheitspflicht auszusetzen und alle wichtigen Besprechungen in die Kernzeiten zwischen 9 und 14 Uhr zu legen. Ferner kannst Du Dich für die Möglichkeit der Mitnahme von kostengünstigem Essen für Familien einsetzen, wenn es bei euch eine Kantine gibt. Für Eltern endet die Arbeit nicht mit dem Verlassen der Firma. Die Kinder kommen aus dem Hort oder Kindergarten und müssen versorgt werden. Essen aus der Kantine kann das Leben der Eltern dabei stark erleichtern.</p>
+                        </div>
+
+                        <div class="nav-section level2"  id="work-5">
+                            <h4 class="heading subheading">Vereinbarkeit von Beruf und Familie normalisieren</h4>
+                            <p>Auch wenn es nicht mehr im Gesetz steht, wird von Frauen häufig  noch erwartet, sich um Familie und Kinder zu kümmern. Das bedeutet meist Einschränkungen im Job. Klar: Wenn jemand weniger arbeiten will, um mehr Zeit für die Familie zu haben, ist das super. Es sollte aber nicht unter dem Druck von Rollenbildern passieren.<br><br>Nach der Schwangerschaft ist die Elternzeit oft ungleich verteilt.<sup><a href="#work-s16">16</a></sup> Während mehr Elternzeit für Frauen oft einen Knick in der Karriere bedeutet, bedeutet weniger Elternzeit für Männer zugleich weniger Möglichkeit, Zeit mit dem Kind zu verbringen. Dabei hast auch Du als Mann Anspruch auf Elternzeit. Um aktive Vaterschaft auch im Unternehmen zu normalisieren, kannst Du Deine Elternzeit z.B. auch im Lebenslauf erwähnen. So hilfst Du anderen Männern, indem Du sichtbar machst, dass es normal ist, wenn die Familie auch für Männer eine große Rolle spielt.<br><br>Sobald die Arbeit wieder beginnt, gibt es viele Dinge, die die Vereinbarkeit von Beruf und Familie verbessern können. Dazu kann gehören, Kleinkinder auf die Arbeit mitbringen zu dürfen, oder einen Kindergarten vor Ort anzuregen. Bei Dienstreisen könnten Kosten für die Betreuung vom Unternehmen übernommen werden. Und noch eine Idee: notiere wichtige Verpflichtungen als Eltern wie Elternsprechtage, Klaviervorspiele der Kinder oder andere Aktivitäten offen im Kalender, um die Kinder im Leben und deren Bedeutung sichtbar zu machen.</p>
+                        </div>
+                    </div>
+                </div>  
             </div>
 
-            <div class="chapter" id="parenthood">
-                <h2>Was können Männer konkret tun</h2>
-                <div class ="chapter-top">
-                    <img src="img/text/h_bckgrnd.png" alt="gezeichneter Hintergrund">
-                    <div class="chapter-heading-1l">
-                        <h1>Elternschaft</h1>              
+            <div class="nav-section level1" id="relationships">   
+                <div class="chapter">
+                    <h2 class="heading">Was können Männer konkret tun</h2>
+                    <div class ="chapter-top">
+                        <img src="img/text/h_bckgrnd.png" alt="gezeichneter Hintergrund">
+                        <div class="chapter-heading">
+                            <h1>Beziehung und Partner:innenschaften</h1>
+                        </div>                    
+                    </div>
+
+                    <div class="main-text">
+                        <div class="all-in-all">
+                            <div class="chapter-icon">
+                                <img class="circle" src="img/text/circle.png" alt="gezeichneter Kreis">
+                                <img class="icon" src="img/text/chptrs/act.png" alt="gezeichnete Faust">
+
+                            </div>
+                            <div class="all-in-all-text">
+                                <p>Beim Kennenlernen und in Beziehungen kann es überaus hilfreich sein, Deine <b>eigenen Grenzen zu reflektieren</b> und <b>die Anderer bewusst wahrzunehmen</b>. Ein einfaches Mittel bei Unsicherheit ist das <b>Nachfragen</b>. Dies geht am besten, wenn eine <b>unterstützende Kultur beim Flirten und Daten</b> anstelle von Konkurrenz herrscht. Beim gemeinsamen Leben stellt sich schnell die Frage, nach der Verteilung und Anerkennung von Haus- und Fürsorgearbeit. Ein gutes Mittel, um dieser Frage nachzugehen, ist die <b>gemeinsame Diskussion</b>, die <b>spielerischen Einpreisung der Arbeit</b> oder die <b>Führung eines Haushaltsbuches</b>.</p>
+                            </div>
+                        </div>
+
+                        <p>Jemanden kennenzulernen ist intensiv, egal ob offline oder online. Jeder Mensch bringt seinen eigenen Hintergrund mit. Eigene Beziehungsvorstellungen, frühere Erlebnisse oder auch aktuelle Lebensumstände. Frühere Geschlechterrollen, nach denen der Mann beim Kennenlernen und in der Beziehung dominant und die Frau passiv sein sollte – wobei dieses dominante Verhalten schon übergriffig sein kann – zeigen sich zwar immer noch, aber lösen sich auch zunehmend<sup><a  href="#relationships-s1">1</a></sup> auf. Das ist aufregend, kann aber auch unsicher machen: Ist es noch in Ordnung, die andere Person beim Date einzuladen? Die Initiative zu ergreifen und zum Kuss anzusetzen? Oder ist das übergriffig? Folgendes kann helfen, diese Fragen auszuloten: </p>
+                        
+                        <div class="nav-section level2"  id="relationships-1">
+                            <h4 class="heading subheading">Grenzen wahrnehmen und respektieren</h4>
+                            <p>Jeder Mensch setzt Grenzen, was gesund ist und unsere Komfortzone markiert. Sie zu wahren ist ein Zeichen der Wertschätzung, ihre Überschreitung führt zur Verletzung. Verletzungen müssen dabei nicht unbedingt körperlich als Folgen groben Umgangs oder Gewalt sein. Beschimpfungen oder dauerhafte Kritik greifen das Wohlergehen auf einer psychischen Ebene an, genau wie ungewollte Körperkontakte oder unerlaubtes Teilen von Nacktbildern. Manche Überschreitungen laufen offensichtlich ab, andere erfolgen subtiler. Welche Grenzen ein Mensch hat, kann dabei unterschiedlich und auch abhängig von der Situation sein. Das macht die Wahrung persönlicher Grenzen nicht einfach. Hier hilft es, sensibel zu sein und zu versuchen die Grenzen der anderen Person aktiv wahrzunehmen. Außerdem ist es wichtig, sich der eigenen Grenzen bewusst zu sein und diese zu kommunizieren.<br><br>Um sich der eigenen Grenzen und der Grenzen anderer bewusst zu werden, können folgende Fragen helfen:</p>
+                            <ul>
+                                <li>Was geht mir zu weit? In welchen Situationen? Gegenüber wem?</li>
+                                <li>Gab es Situationen, in denen ich mich überrumpelt oder bedrängt gefühlt habe und etwas getan habe, was ich eigentlich nicht mochte?</li>
+                                <li>Gab es Momente, in denen ich andere Personen dazu gedrängt habe, etwas zu tun? Oder etwas getan habe, was sie in Bedrängnis gebracht hat? Und wenn ja, welche Schlüsse ziehe ich daraus?</li>
+                            </ul>
+                            <p>Bei der eigenen Unsicherheit über die Grenzen anderer hilft es oft, einfach nachzufragen. So zum Beispiel: <i>„Ich würde gerne heute Nacht zu Dir mitkommen. Ist das okay für Dich?“</i>. Auch wenn dabei die eigenen Erwartungen enttäuscht werden können, ist der gegenseitige Respekt das Wichtigste. Diese Kultur des Respekts führt dann nicht nur dazu, dass sich Menschen sicherer fühlen und ohne Angst öffnen können, sondern dass auch die eigenen Grenzen anerkennt werden. </p>
+                        </div>
+
+                        <div class="nav-section level2"  id="relationships-2">
+                            <h4 class="heading subheading">Gemeinsam statt gegeneinander</h4>
+                            <p>In Ratgebern zum Flirten findet sich häufig die Vorstellung, dass der Mann den ersten Schritt machen muss. Er müsse mit anderen Männer konkurrieren, die Frau von seinem Wert überzeugen und sie erobern. Der Frau wird dagegen eine passive Rolle zugeschrieben. Ihr Ziel sei es, die Männer abzuwehren und sich nur dem einen, besten Mann hinzugeben. Ihre sexuelle Zurückhaltung entscheide über ihren Wert für die Männer. Begründet wird dies mit der evolutionären Natur des Menschens, was aber Unsinn ist.<sup><a  href="#relationships-s2">2</a></sup> Trotzdem erzeugen solche Vorstellungen Druck: Männer fühlen sich genötigt, aktiv und dominant sein zu müssen. Sie werden angehalten, andere Männer abzuwerten. Frauen empfinden sich hingegen in der Entfaltung ihrer eigenen Lust zur Passivität gezwungen und sind Übergriffigkeiten ausgesetzt. Auch wenn diese Vorstellungen Männer und Frauen einschränken, wird oft danach gehandelt. Wie kannst Du das verändern? <br><br>Anstatt Flirten als Konkurrenzverhältnis wahrzunehmen, kannst Du die Teilnahme an dieser Vorstellung verweigern. Konkurrenz funktioniert nur, wenn Menschen mitmachen. Verlasse beispielsweise Situationen, in denen andere Männer mit Dir in einem Wettbewerb treten wollen, oder Frauen zum reinen Statusobjekt für Männer werden. Ferner kann es helfen, einen sicheren Raum beim Daten zu schaffen. In diesem werden Frauen nicht stigmatisiert, wenn sie selbstbewusst ihre Sexualtiät in die Hand nehmen oder Männer nicht niedergemacht, wenn sie schüchtern sind. Stattdessen unterstützt Du alle, ihre Bedürfnisse im Einverständnis mit anderen umsetzen zu können. Sei es, indem Du Freund:innen gegenseitig bekannt machst, jemanden bei einer Abweisung tröstest, oder auch bei sexistischem Verhalten intervenierst. Besonders zu Letzterem findest Du im Kapitel “Im Alltag handeln” weitere Impulse.</p>
+                        </div> 
+
+                        <div class="nav-section level2"  id="relationships-3">
+                            <h4 class="heading subheading">Gemeinsam statt gegeneinander</h4>
+                            <p>Egal ob Du in einer Beziehung, allein oder in getrennten Wohnungen lebst - am Ende des Tages muss der Haushalt gemacht werden. Doch der Haushalt findet meist neben einem vollen Berufs- und Privatleben statt. Anerkennung für die Hausarbeit bleibt häufig aus. Schnell kommt dann die Frage zwischen Partner:innen auf: “Wer übernimmt eigentlich wie viel Hausarbeit?”. Im Schnitt leisten Frauen dabei 60 Prozent mehr Hausarbeit als Männer. Wie viel Mehrarbeit Frauen leisten, hängt stark von der Beschäftigung in Voll- oder Teilzeit ab. Bei Männern ist das egal. Sie machen generell weniger Hausarbeit.<sup><a  href="#relationships-s3">3</a></sup><br><br>Doch was kann man(n) machen, um Hausarbeit gerecht zu verteilen? Zuerst einmal Bewusstsein schaffen, wie umfangreich diese sein kann. Sie umfasst zum Beispiel:</p>
+                            <div class="options-wrapper list-wrapper">
+                                <div class="option list-option">
+                                    <ul>
+                                        <li>Einkäufe und Essenszubereitung</li>
+                                        <li>Staubsaugen und Bügeln</li>
+                                        <li>Handwerkliche Tätigkeiten</li>
+                                        <li>Versorgung der Zimmerpflanzen und Gartenarbeit</li>
+                                    </ul>
+                                </div>
+                                <div class="option list-option">
+                                    <ul>
+                                        <li>Sorge für Haus- und sonstige Tiere</li>
+                                        <li>Organisation des Haushaltes</li>
+                                        <li>Ärztliche Besuche und Behördengänge</li>
+                                        <li>Paketversand und -rückgabe</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <p>Als zweites geht es dann um die Verteilung dieser Tätigkeiten. Wer koordiniert die Aufgaben, übernimmt welche und wie viel Zeit kosten Sie? Um diese Frage zu beantworten, kannst Du Dich zuerst selbst beobachten. Alternativ kannst Du Dein:e Partner:in direkt mit einbinden.<br><br>Falls Du Dich  nicht auf Schätzungen der Arbeitszeit verlassen möchtest, könnt ihr ein gemeinsames Haushaltsbuch anlegen. In diesem werden die Tätigkeiten und ihre Dauer notiert. Das kann dabei helfen, ein gemeinsames Gespräch über die Aufteilung der Arbeiten zu starten und sich gegenseitig Wertschätzung dafür zu vermitteln.<br><br>Eine gute Methode, um sich den Wert der Aufgaben vor Augen zu führen, ist deren fiktive Einpreisung. Was wäre ein angemessener Lohn für einmal Wäsche waschen? Essen kochen? Und so weiter. Sich dann zu vergegenwärtigen, dass die andere Person dies alles ohne Lohn macht, kann überwältigend sein. Und einen der Aufdeckung von Ungerechtigkeiten einen großen Schritt näherbringen.</p>
+                        </div> 
+
+                        <div class="nav-section level2"  id="relationships-4">
+                            <h4 class="heading subheading">Fürsorgearbeit thematisieren und neu verhandeln</h4>
+                            <p>Eng verknüpft mit Hausarbeit ist oft Fürsorgearbeit. Hier steht nicht der Haushalt, sondern die zwischenmenschliche (Für-)Sorge im Vordergrund. Wer kümmert sich um das Wohlergehen der eigenen Kinder, des Partners sowie der Angehörigen? Hier übernehmen Frauen im Durchschnitt 1,5-mal mehr Arbeit!<sup><a  href="#relationships-s3">3</a></sup> Die Mehrarbeit ist unabhängig davon, ob nur der Mann oder beide Partner:innen arbeiten. Auch hier muss sich was ändern!<br><br>Ebenfalls ist hier ein erster sinnvoller Schritt sich bewusst zu machen, was Fürsorgearbeit alles umfasst:</p>
+                            <ul>
+                                <li>Fürsorge für Kinder, wie deren Körperpflege, Hausaufgabenbetreuung oder Versorgung mit Essen. Beim Sport und Spielen beteiligt sein. Sie zu Terminen begleiten oder ihnen zuzuhören und mit ihnen aktiv im Gespräch sein.</li>
+                                <li>Fürsorge für Angehörige, wie die eigenen Großeltern, Eltern, Freund:innen und Verwandte. Sowohl bei Krankheit oder bei Pflegebedürftigkeit unterstützen als auch alltägliche Dinge machen, wie zum Zähne putzen, Essen kochen oder generell Körperhygiene.</li>
+                                <li>Fürsorge für Partner:innen. Sowohl in alltäglichen Dingen als auch auf der emotionalen Ebene und in der persönlichen Entwicklung unterstützen.</li>
+                            </ul>
+                            <p>Es bietet sich an, sich sowohl alleine Gedanken zu machen als auch mit Deiner Partnerin in den Dialog zu treten, die bestehende Verteilung und Eingebundenheiten zu reflektieren und möglicherweise neue Übereinkünfte zu treffen.</p>
+                            <div class="notice">
+                                <p><i>Aber Achtung:</i> Die Diskussion von Fürsorge- und Hausarbeit sollte kein Wettbewerb sein, wer besser oder schlechter ist. Es geht um die gleichgestellte Verteilung! Für Fürsorge ist auch stets die emotionale Involviertheit wichtig, also sich auf die andere Person und deren Bedürfnisse einzulassen.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
+            </div>
 
-                <p class="main-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam maximus urna in est tempor, ut pharetra nisl malesuada. Fusce erat sapien, tincidunt ac felis a, dignissim cursus eros. Nam ac ultrices enim. Cras accumsan et erat non blandit. Etiam rutrum hendrerit neque mollis ultrices. In ac volutpat purus. Nam tincidunt libero at purus commodo rhoncus. Donec dictum tincidunt tellus a viverra. Morbi elementum feugiat ligula, non varius neque hendrerit ac. Pellentesque scelerisque mauris ut volutpat efficitur. Vestibulum tincidunt ultricies blandit. </p>
+            <div class="nav-section level1" id="parenthood"></div>
+                <div class="chapter">
+                    <h2 class="heading">Was können Männer konkret tun</h2>
+                    <div class ="chapter-top">
+                        <img src="img/text/h_bckgrnd.png" alt="gezeichneter Hintergrund">
+                        <div class="chapter-heading-1l">
+                            <h1>Elternschaft</h1>              
+                        </div>
+                    </div>
+
+                    <div class="main-text">
+                        <div class="all-in-all">
+                            <div class="chapter-icon">
+                                <img class="circle" src="img/text/circle.png" alt="gezeichneter Kreis">
+                                <img class="icon" src="img/text/chptrs/act.png" alt="gezeichnete Faust">
+
+                            </div>
+                            <div class="all-in-all-text">
+                                <p>Sollten Du und Deine Partnerin sich für Elternschaft entscheiden, ist es wichtig, diese <b>gemeinsam zu planen</b>, um Deine Partnerin nicht unabsichtlich im Berufsleben zu benachteiligen und um zu schauen, wie ihr beide eure Rollen in der Elternschaft für das Kind füllen wollt. Ebenso könnt ihr die <b>Geburt gemeinsam vorbereiten</b>. Die folgende <b>Beziehung zu Deinem Kind hängt</b> dabei maßgeblich <b>von Deiner Fürsorge für das Kind ab</b>. Bei der anschließenden Erziehung lohnt es sich, <b>so wenig Geschlechterstereotype wie möglich auf das eigene Kind zu projizieren</b> - egal, ob es um eigenen Erwartungen, Verhaltenseinschätzungen oder Produkte für das Kind geht. <b>Du bist ein Vorbild</b> für Dein Kind und kannst vorleben, wie es - unabhängig von Geschlecht - ein freier und vollwertiger Teil der Gesellschaft sein kann.</p>
+                            </div>
+                        </div>
+
+                        <p>Wie sich die Rollenvorstellungen vom Mann als Ernährer und der Frau als Fürsorgerin und Haushälterin geschichtlich  entwickelt haben, wurde im Kapitel Arbeitsleben angerissen. Dabei gelten diese Vorstellungen nicht überall auf der Welt<sup><a  href="#parenthood-s1">1</a></sup>. Gleichzeitig entfalten sie aber trotzdem für uns eine starke Wirkung, besonders was die Erziehung von Kindern und das Verhältnis zu den eigenen Kindern angeht.<br><br>Bevor wir uns Elternschaft zuwenden, ist es wichtig zu betonen, dass dies nicht alle betrifft: Schließlich wollen oder können nicht alle Menschen Nachwuchs haben. Fragen nach Kindern können schmerzen und intim sein. Es lohnt sich abzuwarten, bis das Gegenüber das Thema selber anspricht und es nicht als Smalltalk Thema zu verstehen. Elternschaft umfasst auch Fragen nach Verbindlichkeit, Partner:innenschaft, Gleichberechtigung, Fürsorgearbeit und Finanzen, was die Diskussion  darüber  komplex macht. Diese Vielseitigkeit ist eine gute Gelegenheit, kurz über Deine eigenen Erfahrungen als Kind in Bezug auf Geschlecht und Elternschaft nachzudenken:</p>
+                        <ul>
+                            <li>Wie geht es Dir, wenn Du an Deine eigene Kindheit zurückdenkst?</li>
+                            <li>Gibt es bestimmte Erfahrungen, die Du ausschließlich mit Deiner Mutter/Deinem Vater verbindest?</li>
+                            <li>Wer hat bei euch das Essen gekocht und wer das kaputte Fahrrad repariert?</li>
+                            <li>Bist Du eher zu Deinem Vater oder zu Deiner Mutter gegangen, wenn Du Dich verletzt hast oder traurig warst?</li>
+                            <li>Wie hast Du Dich mit deinen Eltern gestritten, gab es da Unterschiede?</li>
+                        </ul>
+                        <p>Ob bewusst oder unbewusst, die Art wie Du selbst aufgewachsen bist, beeinflusst Dein Denken und Handeln als möglicher Elternteil. Vielleicht fühlst Du Dich mit manchen Erwartungen, die Du erlebst oder erlebt hast, gar nicht wohl und hast es Dir vielleicht schon als Kind anders gewünscht. Die folgenden Impulse können Dir helfen, mit Deiner Partnerin ins Gespräch zu kommen, zu reflektieren und bewusst das Kinder bekommen und erziehen zu gestalten.</p>
+                        
+                        <div class="nav-section level2"  id="parenthood-1">
+                            <h4 class="heading subheading">Elternschaft gleichberechtigt planen</h4>
+                            <p>In vielen heterosexuellen Beziehungen sind Männer einige Jahre älter als ihre Partnerinnen<sup><a  href="#parenthood-s2">2</a></sup>. Die Entscheidung für ein Kind fällt tendenziell dann, wenn der Mann schon ausreichend im Beruf gefestigt ist, während die Frau noch am Anfang ihrer Karriere steht. Das kann zu unbeabsichtigten Abhängigkeiten führen.<br>Frauen erleben so häufiger einen Karriereknick, wenn sie ein Kind bekommen. Das hängt auch mit Vorurteilen gegenüber Müttern zusammen, dass sie nun mit Kind weniger leistungsfähig sind. Wegen diesen Problemen ist es gut, die Aufteilung von Eltern- und Erziehungszeiten früh zu thematisieren. So kann ein späterer Zeitpunkt der Geburt ungewollte berufliche Benachteiligung verringern. Ebenfalls gut zu wissen ist, dass Du als Mann ebenso Anspruch auf Elternzeit hast wie Deine Partnerin.</p>
+                        </div>
+
+                        <div class="nav-section level2"  id="parenthood-2">
+                            <h4 class="heading subheading">Die Geburt gut vorbereiten</h4>
+                            <p>Die Zeit vor der Geburt ist voller Termine und Vorbereitungen, bei denen Du Deine Partnerin unterstützen kannst. So kannst Du sie bei der Hausarbeit entlasten oder mit ihr an den Geburtsvorbereitungskursen teilnehmen. In dieser Phase empfiehlt sich, dass ihr euch bereits über die einzelnen Schritte und möglichen Entscheidungen während der Geburt Gedanken macht. So kann es passieren, dass Deine Partnerin sich während des Geburtsvorganges nicht äußern kann, wenn zum Beispiel eine Narkose gesetzt oder ein Kaiserschnitt durchgeführt werden soll. Je intensiver ihr euch vorab austauscht, desto handlungsfähiger bist Du während der Geburt des Kindes. Welche Rolle Du bei der Geburt spielen willst, wie aktiv Du Dich einbringen möchtest, kannst Du ebenfalls schon vor der eigentlichen Geburt herausfinden. Stimme Dich hier mit deiner Partnerin ab, wie Du ihr bestmöglich zur Seite zu stehen kannst.</p>
+                        </div>
+
+                        <div class="nav-section level2"  id="parenthood-3">
+                            <h4 class="heading subheading">Nähe entsteht durch Fürsorge</h4>
+                            <p>Von Frauen wird meist erwartet, dass sie Kinder haben wollen und sich später auch mehr als ihre Partner darum kümmern. Dabei ist die Qualität der Fürsorge und das Interesse an Kindern unabhängig vom Geschlecht.<sup><a href="#parenthood-s3">3</a></sup> Auch wenn ein Kind nicht in Dir heranwächst und Du es nicht stillst, muss die Beziehung zu Dir nicht weniger eng sein als zur Mutter. Viele Mütter gehen auch (unbewusst) davon aus, dass ihre Partner nicht so gut mit den Kindern umgehen können, wie sie selbst. Das stimmt nicht. Vielmehr ist es eine Frage der Übung und der Vertrautheit, wer sich besser auf das Kind und auf wen sich das Kind besser einlassen kann.<sup><a href="#parenthood-s3">3</a>,<a href="#parenthood-s4">4</a></sup> Gerade deshalb ist es wichtig, über die Rollenverteilung bei der Kinderbetreuung nachzudenken. Solange die Mutter stillt, ist sie oft die Einzige, die nachts aufsteht, um nach dem Kind zu schauen. Das kann dazu führen, dass Väter lernen, das Geschrei zu ignorieren und nicht darauf zu reagieren. Wenn Väter also öfters nachts durchschlafen, obwohl der Nachwuchs schreit, hat das eher mit erlerntem Verhalten als mit unzureichender Wahrnehmung zu tun.<sup><a  href="#parenthood-s5">5</a></sup> Lass Dir also nicht absprechen, keine so enge Bindung zu Deinen Kindern zu haben, sondern nimm Deine Rolle als Elternteil aktiv wahr und baue eine Verbindung auf. Dies beinhaltet sich auch und besonders in anstrengenden Situationen zu kümmern. So stärkst Du die Beziehung zu Deinem Kind und entlastest Deine Partnerin.</p>
+                        </div>
+
+                        <div class="nav-section level2"  id="parenthood-4">
+                            <h4 class="heading subheading">Geschlechterstereotype überwinden</h4>
+                            <p>Wir alle haben Menschen in unserem Umfeld, die sagen “So sind Jungen (oder Mädchen) halt.” Das zeigt, wie sehr wir mit Geschlechtsstereotypen aufwachsen und diese verinnerlicht haben. Wir sehen unser Gegenüber nicht unabhängig vom Geschlecht, sondern interpretieren dessen Verhaltensweisen vor diesem Hintergrund. Häufig werden bereits bei Kindern Geschlechterstereotype mit vermeintlich anerkannten biologistischen Bezügen verbunden. Zum Beispiel, dass Jungen wegen dem Testosteron aggressiv handeln. Dabei lassen sich bei Jungen und Mädchen im Alter von 3 Monaten bis zum Eintritt in die Pubertät keine Unterschiede im Testosteronlevel nachweisen.<sup><a href="#parenthood-s6">6</a></sup><br>Häufig wird schon nach der Geburt geschlechterspezifisches Verhalten von Kindern erwartet. Diese Erwartungen fördern es allerdings erst: Während männliche und weibliche Babys noch gleich viel getröstet werden (und auch gleich viel weinen), werden männliche Kleinkinder, sobald sie anhand ihres Aussehens von der Umwelt als Jungen identifiziert werden, von Menschen außerhalb der Familie wie Betreuungspersonen in Schule und Kindergarten weniger getröstet.<sup><a href="#parenthood-s7">7</a></sup> Mit Jungen wird weniger oft über Gefühle gesprochen.<sup><a href="#parenthood-s8">8</a></sup> Um ein mit anderen Menschen verbundenes Leben zu führen, braucht es aber den Zugang zu den eigenen Gefühlen und klare Kommunikation darüber.<sup><a href="#parenthood-s9">9</a></sup> Es ist deshalb wichtig, dass Du für Dein Kind unabhängig vom Geschlecht da bist und es unterstützt, seine Gefühle auszudrücken. Ermutige Dein Kind gerne und finde mit ihm heraus, was dabei hilft, über die eigenen Emotionen zu sprechen.<br>Das Geschlecht sollte keine Rolle spielen, wie „vorsichtig“ oder „wild“ ein Kind beim Sich-Ausprobieren sein darf. Alle Kinder profitieren davon Verantwortungsbewusstsein, Fürsorge und Ausdauer zu lernen. Hast Du bereits beobachtet, dass in Deinem Umfeld Kindern je nach Geschlecht unterschiedliche Freiheiten gegeben werden? Möchtest Du das für Deine Kinder? Was brauchst Du, um ihnen die gleichen Freiheiten zuzugestehen? Hier kann der Kontakt Deines Kindes zu Kindern anderer Geschlechter bedeutend sein: Er wirkt sich sowohl positiv auf das Problemlösungs-und Kommunikationsverhalten Deines Kindes aus, als auch auf die Auflösung von geschlechtsstereotypen Denken.<sup><a href="#parenthood-s10">10</a></sup></p>
+                        </div>
+
+                        <div class="nav-section level2"  id="parenthood-5">
+                            <h4 class="heading subheading">Weg mit der blau-rosa Produktpalette</h4>
+                            <p>Häufig wird Kindern eingeredet, sie bräuchten je nach Geschlecht andere Spielzeuge oder Spielinhalte. Das wohl bekannteste Beispiel dafür sind Produktfarben: Rosa für Mädchen und Blau für Jungen. Dass Rosa Mädchen von Natur aus gefällt, stimmt allerdings nicht. In einer groß angelegten Studie zeigte sich, dass Kinder bis zum zweiten Lebensjahr unabhängig vom Geschlecht die Farbe blau der Farbe pink vorziehen.<sup><a href="#parenthood-s11">11</a></sup> Außerdem galt bis zur Mitte des 20. Jahrhunderts rosa als männliche Farbe. Erst mit der Einführung von Tarnkleidung vor rund 150 Jahren beim Militär wurde rosa zur weiblichen Farbe deklariert.<sup><a href="#parenthood-s12">12</a></sup> Seit 50 Jahren werden viele Sachen einmal für Jungs in Blau und für Mädchen in Rosa verkauft, um mehr Absatz zu machen.<sup><a href="#parenthood-s13">13</a></sup> Mit diesem Wissen, kannst Du Dich von der  pink-blauen Einheitswelt  verabschieden. So kannst Du Dir Gedanken machen, ob Du wirklich den blauen Gegenstand „nur für Jungs“ brauchst oder ob es nicht auch eine neutrale Farbvariante gibt, die die gleiche Funktion erfüllt.</p>
+                        </div>
+
+                        <div class="nav-section level2"  id="parenthood-6">
+                            <h4 class="heading subheading">Du bist Vorbild</h4>
+                            <p>Als Vater bist Du in einer neuen Rolle, was Du sicher auch daran merken wirst, wie andere fortan mit dir umgehen. Häufig ist auch dieser Umgang mit Dir (unbewusst) mit sexistischen Stereotypen aufgeladen. Um die zu reflektieren, können folgende Fragen helfen:</p>
+                            <ul>
+                                <li>Wie werde ich als Vater wahrgenommen? Wie wird die Mutter wahrgenommen? Welche Unterschiede werden zwischen uns gemacht?</li>
+                                <li>In welchen Situationen werde ich nicht als Vater wahrgenommen?</li>
+                                <li>Gibt es Momente, in denen ich mich selbst nicht als Vater wahrnehme? Habe ich Interesse daran, das zu verändern? Wie kann mich meine Partnerin  bei dieser Veränderung unterstützen, was fällt mir selber dazu ein?</li>
+                            </ul>
+                            <p>Da sich Dein Kind an Deinem Verhalten orientiert, ist es wichtig, das eigene Verhalten zu reflektieren, um zu prüfen, welche Aspekte Du an Dein Kind vermitteln willst.<br>In welchen Situationen greifst Du selbst auf Geschlechterstereotype zurück? Wann lebst Du sexisitische Rollenbilder vor? Was kann Dir helfen, anders zu handeln?<br>Wieso wird dasselbe Verhalten bei Jungen etwa als starker Wille bezeichnet, während Mädchen schnell als störrisch oder zickig gelten? Hast Du schon darüber nachgedacht, an welchen Stellen und warum Du Wörter mit klarer geschlechtlicher Zuordnungen verwendest?<br><br>Für Kinder wird irgendwann der Punkt kommen, ab dem sie selbstständig leben, sich selbst Essen kochen, abwaschen oder für Ordnung sorgen müssen. Häufig werden Jungen von der Hausarbeit ferngehalten. Dies nimmt ihnen aber die Möglichkeit, adäquat auf den Übergang zur Selbständigkeit im späteren Leben vorbereitet zu sein. Um dem vorzubeugen, kannst Du Deine Kinder unabhängig vom Geschlecht in der Haushaltsführung einbeziehen, wie man einen eigenen Haushalt führt, wie man Wäsche wäscht, Rezepte kocht oder den Einkauf plant. Am Anfang ist das bestimmt viel Stress, aber irgendwann wirst Du auch davon profitieren.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="nav-section level1" id="sexuality"></div>
+                <div class="chapter">
+                    <h2 class="heading">Was können Männer konkret tun</h2>
+                    <div class ="chapter-top">
+                        <img src="img/text/h_bckgrnd.png" alt="gezeichneter Hintergrund">
+                        <div class="chapter-heading-1l">
+                            <h1>Sexualität</h1>
+                        </div>                    
+                    </div>
+
+                    <div class="main-text">
+                        <div class="all-in-all">
+                            <div class="chapter-icon">
+                                <img class="circle" src="img/text/circle.png" alt="gezeichneter Kreis">
+                                <img class="icon" src="img/text/chptrs/act.png" alt="gezeichnete Faust">
+
+                            </div>
+                            <div class="all-in-all-text">
+                                <p>Sexualität ist vielfältig und beschränkt sich nicht nur auf Vulva und Penis. Du kannst sie als <b>Entdeckungsreise</b> zum Kennenlernen Deiner eigenen Bedürfnisse verstehen. Dabei sind <b>Reflektion und Kommunikation</b> - besonders im Umgang mit anderen - sehr wichtig. <b>Geschützter Sex</b> ermöglicht, sich frei und ohne Angst vor sexuell übertragbaren Krankheiten zu begegnen. Je eher dabei angesprochen wird, wie verhütet wird, desto <b>gleichberechtigter</b> können <b>Kosten</b> und <b>Aufwand</b> verteilt werden.</p>
+                            </div>
+                        </div>
+
+                        <p>Bei Sexualität wird manchmal nur an Erregung, Penetration und Orgasmus gedacht - dabei meint es soviel mehr. Denn sowohl das Kennenlernen des eigenen als auch des Körpers einer anderen Person ist verbunden mit Gefühlen und Wahrnehmungen, aber auch mit vorgefertigten Denkweisen, Rollenzuschreibungen, Regeln und Rechten. Das beeinflusst, wie wir über Sexualität denken, über sie reden und uns verhalten.<br>Was bedeutet Sexualität für Dich? Welche Erfahrungen hast Du im Laufe Deines Lebens gemacht und was ist Dir besonders in Erinnerung geblieben? Welche sexuellen Begegnungen hast Du besonders genossen? Wo hast Du Dich vielleicht unsicher gefühlt?<br><br>Die nachfolgenden Aspekte können Dir als Anregung dienen, Deine Vorstellungen von Sexualität zu reflektieren. Sie liefern Impulse, Sexualität frei und selbstbestimmt zu leben.</p>
+                        
+                        <div class="nav-section level2" id="sexuality-1">
+                            <h4 class="heading subheading">Wertschätzender Umgang mit Körpern</h4>
+                            <p>Sexualität ist mit Körperlichkeit verbunden. Wie in Medien Körper dargestellt werden, beeinflusst unsere Vorstellung von Schönheit und Attraktivität. Weibliche Körper erscheinen meist als schlank und haarlos. Die Brüste als straff und die Vulva unauffällig, glatt und symmetrisch. Sie soll möglichst geruchsneutral sein, wobei unterschiedliche Intimpflegeprodukte (wie Waschlotions und Deodorants) “helfen” sollen. Auch die Menstruation wird verborgen und fälschlicherweise als unrein dargestellt. Der männliche Körper wird hingegen meist als muskulös dargestellt. Der Penis als groß und stets bereit, erigiert zu sein. Diese Darstellungen haben wenig mit der Realität zu tun. Trotzdem prägen sie unser Denken und unser Verhältnis zu unserem Körper. Wir lehnen uns möglicherweise selbst ab oder trauen uns nicht, mit anderen intim zu werden. Kennst Du das auch? Hattest Du bereits die Sorge, einer anderen Person nicht zu gefallen? Wie bist Du damit umgegangen?<br><br>Möglichkeiten, an diesen Vorstellungen etwas zu ändern, ist ein anderer Blick auf Körperlichkeit. Dich mit Dir selbst und Deinem eigenen Körper auseinanderzusetzen, ist ein erster Schritt. Jeder Mensch ist anders und somit auch jeder Körper. Manchen Menschen wachsen mehr Körperhaare, als anderen - aber jede:r kann selbst entscheiden, ob diese gezeigt oder entfernt werden sollen. Auch sollte vom Körpergewicht einer Person nicht auf deren Charakter geschlossen werden oder wie attraktiv ihn andere Menschen finden.<br><br>Jeder Mensch nimmt Berührungen unterschiedlich wahr. Daher ist es wichtig, darüber zu reden, was als angenehm empfunden wird und welche Berührungen ok sind. Es ist nicht unmännlich, einzugestehen, dass man keine Lust auf Sex hat - im Gegenteil! Es hilft dabei, dass neue, vielfältigere Vorstellungen von Männlichkeit entstehen können. Die gesellschaftlichen Vorstellungen zu ändern ist schwer. Doch wir können bei uns selbst und unserem eigenen Körper damit beginnen.</p>
+                        </div>
+
+                        <div class="nav-section level2" id="sexuality-2">
+                            <h4 class="heading subheading">Let’s go - safety first</h4>
+                            <p>Sex macht Spaß - sollte aber sicher sein. Kondome schützen vor sexuell übertragbaren Krankheiten (STI) und Schwangerschaft. Manchmal wird dabei gesagt, dass sich Sex mit Kondomen nicht gut anfühlt. Tatssächlich ist die Kondomgröße entscheidend dafür, wie gut sich Sex anfühlen kann. Zum Finden der richtigen Größe findest Du im Kapitel “zum Weiterlesen” mehr Informationen. Alternativ kannst Du auch mit Kondom masturbieren, um herauszufinden, welchen Größen passen und welche Stimulation dich jeweils erregt. Es gibt viele Kondomsorten und Größen, probiere es ruhig mal aus!<br><br>Doch auch neben dem Kondom gibt es viele Alternativen. Gerade in Bezug auf Langzeitverhütung lohnt es sich, mit Deinen Sexualpartner:innen offen über Verhütung zu sprechen. Einerseits, welche Arten von Verhütungsmethoden in Frage kommen und welche Vor- und Nachteile sie haben. Andererseits, wie die Verhütung finanziert werden soll. Frauenärzt:innen oder Beratungsstellen wie profamilia informieren auch auf Nachfrage darüber, welche Bandbreite an Verhütungsmitteln existieren. Ferner findest Du auf <a target="_blank" href="https://www.lilli.ch/mann_verhuetung">lilli.ch eine Übersicht</a>, welche vielfältigen Methoden Männer anwenden können, und weitere Informationen im Kapitel “zum Weiterlesen”. Dabei ist auch wichtig: Verhütungsmittel kosten Geld, Zeit und Energie, um sie zu beschaffen. Damit es sich für Dich und Deine Sexualpartner:innen fair anfühlt, sprich es am besten bereits frühzeitig an!</p>
+                        </div>
+
+                        <div class="nav-section level2" id="sexuality-3">
+                            <h4 class="heading subheading">Erwartungshaltungen adé - Spielwiese olé</h4>
+                            <p>Hast Du Dir schon mal Gedanken darüber gemacht, warum Du Sex hast? In der Forschung werden mehr als 200 Gründe für Sex genannt, wie z.B. anderen Personen nahe sein, ihre Körper kennenzulernen oder einen Orgasmus zu haben.<sup><a  href="#sexuality-s1">1</a></sup> Sex kann also viele Bedeutungen haben und bezieht sich nicht nur auf Penis und Vulva. Vielen Pornos fokussieren sich allerdings fast nur auf männliche Penetration und Ejakulation. Dabei geht die Vielfalt unter, wie Sex auch für Männer ablaufen kann. Um Deine eigene Entdeckungsreise zu starten, probier doch mal aus, an welchen Stellen Deines Körpers Du Berührungen magst, welche davon erregend sind oder wo Du vielleicht nicht berührt werden möchtest. Wenn eine andere Person dabei mitmacht, ist Kommunikation der Schlüssel zum Erfolg. Offene Gespräche über Sex und Lust nehmen diesen nicht ihren Zauber. Im Gegenteil sind diese die Voraussetzung, um eure ganz eigene, individuelle Sexualität zu erforschen und zu erleben.<br><br>Um über Sex nachzudenken, hilft das Konzept der Spielwiese. So vielfältig die Arten von Sexualität sind, so vielfältige Spiele kann man spielen. Nicht jedes Spiel gefällt immer. Nicht jedes gefällt der Mehrheit. Mit manchen Menschen spielt man bestimmte Spiele gern, andere wiederum eher ungern. Die Metapher der Spielwiese verdeutlicht: Es schadet nicht nachzufragen, auf welches Spiel die andere Person Lust hat.  So wie man auch nicht immer das gleiche Spiel spielen will, will man vielleicht auch im Laufe des Sexuallebens auch Mal etwas anderes oder etwas Neues ausprobieren.<br><br>Hier helfen manchmal schon die einfache Fragen wie ”Was gefällt Dir?” oder “Was möchtest Du gern machen/ausprobieren?”. So lernt man nicht nur die gegenseitigen Vorlieben kennen, sondern auch die Grenzen der gemeinsamen Spielwiesen.  Beim Spielen hilft auch ungemein, die eigene Anatomie und die des Gegenübers zu kennen. Um dir Wissen darüber anzulesen, findest Du im Kapitel “zum Weiterlesen” ein paar Empfehlungen dafür! Diese machen Mut und helfen, Sexualität in ihrer Vielfalt zu genießen. Denn genau wie auf einer “Spielwiese” gibt es auch beim Sex keine Gewinner:innen oder Verlierer:innen, sondern nur Menschen, die das Miteinander genießen wollen. Viel Spaß!</p>
+                        </div>
+                    </div>
+                </div>
             </div>
             
-            <div class="chapter" id="sexuality">
-                <div class="chapter" id ="work">
-                <h2>Was können Männer konkret tun</h2>
-                <div class ="chapter-top">
-                    <img src="img/text/h_bckgrnd.png" alt="gezeichneter Hintergrund">
-                    <div class="chapter-heading-1l">
-                        <h1>Sexualität</h1>
-                    </div>                    
-                </div>
+            <div class="nav-section level1" id ="reflection"></div>
+                <div class="chapter">
+                    <div class="chapter" >
+                    <h2 class="heading">Was können Männer konkret tun</h2>
+                    <div class ="chapter-top">
+                        <img src="img/text/h_bckgrnd.png" alt="gezeichneter Hintergrund">
+                        <div class="chapter-heading">
+                            <h1>Sich Selbst <br> Reflektieren</h1>
+                        </div>                    
+                    </div>
 
-                <p class="main-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam maximus urna in est tempor, ut pharetra nisl malesuada. Fusce erat sapien, tincidunt ac felis a, dignissim cursus eros. Nam ac ultrices enim. Cras accumsan et erat non blandit. Etiam rutrum hendrerit neque mollis ultrices. In ac volutpat purus. Nam tincidunt libero at purus commodo rhoncus. Donec dictum tincidunt tellus a viverra. Morbi elementum feugiat ligula, non varius neque hendrerit ac. Pellentesque scelerisque mauris ut volutpat efficitur. Vestibulum tincidunt ultricies blandit. </p>
+                    <div class="main-text">
+                        <div class="all-in-all">
+                            <div class="chapter-icon">
+                                <img class="circle" src="img/text/circle.png" alt="gezeichneter Kreis">
+                                <img class="icon" src="img/text/chptrs/act.png" alt="gezeichnete Faust">
+
+                            </div>
+                            <div class="all-in-all-text">
+                                <p>Um sich selbst zu reflektieren, bietet sich die <b>Reflektion der eigenen Biographie</b> an. Dies muss allerdings nicht allein passieren, sondern kann <b>durch andere Personen unterstützt</b> werden. Dabei hilft auch die Beschäftigung mit den <b>Privilegien des Mann-Seins</b>. Grundlegend auf den persönlichen Weg zur Gleichstellung ist die <b>Akzeptanz von Fehlern</b>, der Wille dazu, für die eigenen Handlungen <b>Verantwortung zu übernehmen</b> und <b>sichere Räume</b> für die persönliche Entfaltung in der Gleichstellungsarbeit zu <b>finden oder schaffen</b>.</p>
+                            </div>
+                        </div>
+
+                        <p>Bereits Schwangere werden gefragt: “Und, was wird es?”. So wird  uns meist schon im Mutterleib ein Geschlecht zugewiesen. Unsere Eltern leben uns teils bewusst, teils unbewusst bestimmte Geschlechterrollen vor, welche in unserer Kindheit zum Orientierungspunkt für uns werden können. Mit dem Aufwachsen nehmen wir manche dieser  Rollen an, aber weisen auch manche zurück, wenn wir andere Lebensmöglichkeiten kennen lernen. Manche Vorstellungen von Geschlecht sind tief in uns verankert, andere sitzen leicht zugänglich an der Oberfläche. Wie können wir nun all dies aufdecken und uns kritisch damit auseinandersetzen?</p>
+                        
+                        <div class="nav-section level2" id="reflection-1">
+                            <h4 class="heading subheading">Eigene Biografie reflektieren</h4>
+                            <p>Eine erster Ansatzpunkt ist die eigene Biographie, die Betrachtung des eigenen Lebens von der Kindheit bis jetzt. Welche Rolle hat Dein Geschlecht zum jeweiligen Zeitpunkt für Dich und andere gespielt? Wo wurdest Du deswegen unterschiedlich behandelt? Wo hast Du andere wegen ihres Geschlechts unterschiedlich behandelt? Zur Reflexion kann es helfen, über folgende Fragen nachzudenken:</p>
+                            <ul>
+                                <li>Wie wurden meine eigenen Eltern erzogen? Wie haben sie mich erzogen?</li>
+                                <li>Welchen Einfluss hatten meine Freund:innen auf mich? Welchen hatte ich auf sie?</li>
+                                <li>Welche Lehrer:innen, Mentor:innen und Vorbilder hatte ich? Wie haben sie Geschlecht (vor-)gelebt?</li>
+                                <li>Welche Bedeutung hatte Geschlechtlichkeit in meinen Computerspielen, in der Musik, in Medien oder in meinen Hobbys?</li>
+                                <li>Welche Relevanz hatte das Geschlecht in meinen Beziehungen?</li>
+                                <li>Welche Bedeutung hat Geschlecht in meinem Arbeitsalltag?</li>
+                            </ul>
+                            <p>Möglicherweise fällt Dir am Anfang noch nicht viel ein. Aber wenn Du Dich auf den Prozess einlässt, erkennst Du mit der Zeit immer mehr. Dabei wirst Du über Momente stolpern, in denen Du selbst sehr sexistisch warst, oder welche, in denen Du Dich bewusst gegen Stereotype und für Geschlechtergerechtigkeit eingesetzt hast. Genau diese Momente bieten wertvolle Impulse für die eigene Reflexion.</p>
+                        </div>
+
+                        <div class="nav-section level2" id="reflection-2">
+                            <h4 class="heading subheading">Wahrnehmung durch andere</h4>
+                            <p>Manchmal kommst Du mit Deiner eigenen Reflexion vielleicht nicht weiter. An vieles kannst Du Dich nicht mehr erinnern, anderes möchtest Du am liebsten vergessen. Hier hilft es, andere um Hilfe zu bitten. Diese können spiegeln, was Du selbst nicht wahrnimmst oder vergessen hast. Überlege, mit wem Du darüber sprechen könntest. Bietet sich eine der folgenden Personen an:</p>
+                            <ul>
+                                <li>Deine Eltern? / Deine Freund:innen?</li>
+                                <li>Deine Arbeitskolleg:innen?</li>
+                                <li>Deine Partner:innen?</li>
+                            </ul>
+                            <div class="notice">
+                                <p><i>Ganz wichtig dabei: zuhören!</i> Solche Gespräche werden persönlich und können aufwühlend sein. Teile daher vorher Deinen Gesprächspartner:innen mit, aus welchem Grund Du mit ihnen redest und was Du von ihnen erwartest. Bitte sie, Dich darin zu unterstützen und teile auch, wenn es Dir zu viel wird oder Du einen Moment zum verarbeiten benötigst.</p>
+                            </div>
+                        </div>
+
+                        <div class="nav-section level2" id="reflection-3">
+                            <h4 class="heading subheading">Vorteile des Mannseins überdenken</h4>
+                            <p>Oft werden Menschen je nach Geschlecht anders behandelt. Damit können unverdiente Vorteile einhergehen, wie zum Beispiel, dass Männer für den gleichen Kurzhaarschnitt deutlich weniger zahlen müssen als Frauen.<sup><a  href="#reflection-s1">1</a></sup> Solche unverdienten Vorteile werden auch als “Privilegien” bezeichnet. Im Internet findest Du viele sogenannter „Privilegien Checklisten“, welche zur Reflexion anregen. Folgend sind ein paar Beispiele für Privilegien aufgeführt. Treffen sie auf Dich zu? Wenn ja, warum? Wenn nein, warum nicht? Und welche weiteren Privilegien könnte es geben?</p>
+                            <ul>
+                                <li>Nach Einbruch der Dunkelheit fühle ich mich sicher auf der Straße.</li>
+                                <li>Wenn ich heirate, wird von mir keine Änderung meines Nachnamens erwartet.</li>
+                                <li>In Jobinterviews werde ich nicht nach meinem Kinderwunsch gefragt.</li>
+                                <li>Meine fachliche Kompetenz wird nicht auf Grund meines Geschlechts in Frage gestellt.</li>
+                                <li>Wenn ich mit vielen Leuten Sex habe, werde ich dafür nicht abgewertet.</li>
+                                <li>Es wird nicht gemutmaßt, dass mein Aussehen mir bei meiner Karriere geholfen hat.</li>
+                                <li>Wenn ich Elternzeit nehme, werde ich für meinen außergewöhnlichen Einsatz gelobt.</li>
+                            </ul>
+
+                            <div class="notice">
+                                <p><i>Aber Achtung:</i> Privilegien sind nicht in Stein gemeißelt. Sie können je nach Zeit, Ort und anderen Eigenschaften einer Person variieren. Nutze sie nicht als letzte Wahrheit, sondern vielmehr als ersten Anhaltspunkt, um Dich damit auseinanderzusetzen! Mehr dazu findest Du im Kapitel „Über den Tellerrand“.</p>
+                            </div>
+                        </div>
+
+                        <div class="nav-section level2" id="reflection-4">
+                            <h4 class="heading subheading">Den eigenen Sexismus anerkennen und bearbeiten</h4>
+                            <p>Über sich selbst nachzudenken, kann ein aufregender, aber auch schmerzhafter Prozess sein. Vielleicht entdeckst Du eigene Handlungen und Denkweisen, die Du heute als sexistisch wahrnimmst. Es tauchen Gefühle wie Wut und Scham auf und vielleicht der Gedanke, moralisch versagt zu haben.<br>Die Frage ist nun, wie kann mit diesen Gefühlen und Versagens-Gedanken umgegangen werden? Sich dagegen wehren, in die Defensive gehen und alles abstreiten? Oder schaffst Du es, diese Gedanken und Gefühle zuzulassen, offen zu bleiben und möglicherweise aus ihnen heraus Antrieb zu schöpfen? Drei Dinge können dabei ungemein helfen: Fehlerkultur, Verantwortung und sichere Räume.</p>
+                            <ul>
+                                <li><b>Fehlerkultur etablieren</b>: Sobald Du Dich mehr mit Geschlechtergerechtigkeit befasst, wird Dir ihre Abwesenheit an jeder Ecke auffallen. Vielleicht denkst Du “jetzt habe ich es verstanden und bin nicht mehr sexistisch”. Und dann geschieht es doch. Du denkst oder sagst etwas, was sexistisch ist und plötzlich fällt es Dir auch auf. In so einem Moment hilft es, den Druck von sich zu nehmen und den eigenen Anspruch fallen zu lassen, immer perfekt sein zu müssen. Du musst nicht erwarten, von heute auf morgen nie wieder sexistisch zu sein. Stattdessen kannst Du es als Prozess betrachten. Zu diesem gehört es, Fehler zu machen. Es sind nicht die Fehler, die uns definieren, sondern was wir daraus lernen. Wenn wir aufhören, uns selbst dafür zu verurteilen und dafür toleranter werden, hilft das nicht nur uns, sondern auch anderen Menschen, die uns umgeben. Denn auch wenn diese etwas sexistisches sagen oder sich sexistisch verhalten, kannst Du sie darauf hinweisen, ohne sie zu beschämen oder sie für diese Aussagen zu verurteilen.</li>
+                                <li><b>Verantwortung übernehmen</b>: Scham zu empfinden ist unangenehm und schwer auszuhalten. Wenn sie auftaucht, wollen wir am liebsten im Boden versinken. Stell Dir folgende Situation vor: Du hast bei einem Arbeitstreffen ewige Monologe gehalten und andere Kolleg:innen abgewürgt, worauf Dich danach eine Kollegin anspricht. Welche Verhaltensweisen und Handlungen können jetzt einsetzen?</li>
+                            </ul>
+                            <div class=" options-wrapper">
+                                <div class="option option-of-2 option-with-list">
+                                    <h2>Dem Schamgefühl ausweichen</h2>
+                                    <ul>
+                                        <li>Abstreiten: Du erwiderst, <i>“es hat doch aber niemand anderes etwas erwidert und wenn niemand etwas sagt, spreche ich halt aus, was ich denke”</i>.</li>
+                                        <li>Angriff: Du erwiderst, <i>„Du hättest doch direkt was sagen können, anstatt jetzt anzukommen. Außer Dir hat es wahrscheinlich niemanden gestört, schließlich sprichst nur Du mich darauf an”</i>.</li>
+                                        <li>Vermeidung: Du stehst wie gelähmt da und Dir fehlen die Worte, möglicherweise gehst Du einfach weg, lässt die Person stehen und vermeidest auch zukünftig, mit ihr in Kontakt zu sein.</li>
+                                    </ul>
+                                    <p><i>Resultat: Du musst die Scham nicht fühlen</i></p>
+                                </div>
+
+                                <div class="option option-of-2 option-with-list">
+                                    <h2>Auseinandersetzung mit dem Scham</h2>
+                                    <ul>
+                                        <li>Du übernimmst Verantwortung und thematisierst deine Gefühle: <i>“Wenn Du es so zu mir sagst, taucht ganz viel Scham auf.” oder “Oh je, das wollte ich nicht und jetzt schäme ich mich”</i>. </li>
+                                    </ul>
+                                    <p><i>Resultat: Resultat: Du setzt Dich mit dem Schamgefühl auseinander</i></p>
+                                </div>
+                            </div>
+                            <p class="li-continued">Deinem Schamgefühl zu begegnen und es zu kommunizieren, ist Ausdruck eines reifen Verhaltens. Dabei übernimmst Du die Verantwortung für das Verhalten und überträgst sie nicht auf andere. Die andere Person ist nicht daran Schuld, dass ich mich schäme, sondern sie hilft mir dabei zu erkennen, wo ich mit meiner Verhaltensweise andere verletzt habe. Wenn ihr es schafft, eine Gesprächskultur aufzubauen, in der auch geteilt wird, wie man sich fühlt, ist das für alle Seiten bereichernd. Gemeinsam könnt ihr dann schauen, was jede:r von euch braucht und aufeinander acht geben und Rücksicht nehmen.</p>
+                            <ul>
+                                <li><b>Sichere Räume finden oder schaffen</b>: Auch wenn Du die besten Absichten hast, nicht überall bist Du in gleicher Weise in der persönlichen Auseinandersetzung mit Gleichstellung willkommen. Manche Personen habe gar kein Interesse und schwadronieren von einer großen Gender-Ideologie, andere werden in ihren Moralvorstellungen von Gleichstellung schnell absolut, wieder andere reden darüber in sehr abstrakter und theoretischer Weise. Hier hilft es, Räume zu finden, in denen Du die eigenen Fragen, Reflexionen oder auch Ideen zu Gleichstellung einbringen kannst, ohne abgewertet zu werden und wo Du in den Austausch gehen kannst. Schau doch mal in Deinem Freundeskreis, mit wem Du das Gefühl hast, auch über solche Themen reden zu können. Vielleicht gibt es an deinem Wohnort Männergruppen. Unter <a target="_blank" href="https://maennerberatungsnetz.de">maennerberatungsnetz.de</a> findest Du eine Übersicht möglicher Anlaufstationen. Wenn Du Lust hast, kannst Du aber auch selbst eine Gruppe gründen, in der ihr euch über eure Gedanken und Gefühle zu dem Thema austauscht und euch aktiv zuhört. Auf diese Weise könnt ihr einen eigenen sicheren Raum schaffen, der euch Halt geben kann und euch Nähe erfahren lässt. Geeignete Methoden hierfür sind die Gewaltfreie Kommunikation, das Mindsharing oder auch aktives Zuhören.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+
+            <div class="nav-section level1" id="act"></div>
+                <div class="chapter" >
+                    <h2 class="heading">Was können Männer konkret tun</h2>
+                    <div class ="chapter-top">
+                        <img src="img/text/h_bckgrnd.png" alt="gezeichneter Hintergrund">
+                        <div class="chapter-heading">
+                            <h1>Im Alltag <br> Handeln</h1>
+                        </div>     
+                    </div>          
+                    
+                    <div class="main-text">
+                        <div class="all-in-all">
+                            <div class="chapter-icon">
+                                <img class="circle" src="img/text/circle.png" alt="gezeichneter Kreis">
+                                <img class="icon" src="img/text/chptrs/act.png" alt="gezeichnete Faust">
+
+                            </div>
+                            <div class="all-in-all-text">
+                                <p>Es ist der erste Schritt, dass wir <b>sensibel für sexistische Situationen oder Personen werden</b> und eine Einstellung dazu zu entwickeln. Doch es ist der zweite Schritt, diese Einstellung auch zu vertreten, in dem das Potential zur wirklichen Veränderung liegt. Dazu musst Du zuallererst <b>Dein Schweigen überwinden</b>, wenn Du eine sexistische Situation erlebst. Indem Du Dich deutlich von sexistischem Verhalten in Deiner Umgebung distanzierst, <b>brichst Du die implizite Solidarität mit Sexist:innen</b>. Durch die Vielfalt an Situationen, in denen Sexismus auftreten kann, ist das dennoch häufig keine leichte Aufgabe. Es kann deshalb hilfreich sein, <b>andere Menschen mit einzubinden</b> um Sexismus besser begegnen zu können. Immerhin sind wir keine Einzelkämpfer:innen gegen Ungleichbehandlung sondern haben viele (oft unsichtbare) Gleichgesinnte an unserer Seite.</p>
+                            </div>
+                        </div>
+
+                        <p>Sexismus ist überall. In Talkshows oder in der Werbung, aber auch in Whatsapp-Gruppen oder der Straßenbahn. Wer Gleichstellung unterstützen will, muss somit alltäglich gegen Sexismus antreten. Die Reflektion des eigenen Verhaltens ist dabei ein erster wichtiger Schritt, darf aber nicht der letzte sein, wenn sich gesellschaftlich wirklich etwas verändern soll.</p>
+                        
+                        <div class="nav-section level2" id="act-1">
+                            <h4 class="heading subheading">Dein persönliches Verhalten zählt</h4>
+                            <p>Wir sind selten allein, sondern leben in den unterschiedlichsten Gruppen: Zuhause, bei der Arbeit, beim Einkaufen oder beim Busfahren - in fast jeder Minute sind wir von anderen Menschen umgeben. In jeder dieser Gruppen gelten Regeln, die aber oft nicht ausgesprochen werden. Stattdessen werden sie indirekt über das Verhalten der Gruppenmitglieder aufgestellt. Wird Seximus also in einer Gruppe toleriert, dann ist das ein Anzeichen dafür, dass die Regeln dieser Gruppe Sexismus zumindest nicht ablehnen. Also muss sich erst das Verhalten der Gruppenmitglieder ändern, damit sich auch die Regeln verändern.<br>Deshalb ist es wichtig, Gleichstellung nicht nur privat, sondern auch im öffentlichen Raum zu leben. Das kann auf verschiedene Arten und Weisen passieren, aber die öffentliche Reaktion auf alltäglichen Sexismus ist eine der deutlichsten - Zivilcourage, sozusagen.<br><br><i>Nun ist das Wort “Zivilcourage” ziemlich abstrakt. Um etwas konkreter zu werden, möchten wir anhand von drei Szenarien aufzeigen, welche (aufeinander aufbauenden) Möglichkeiten Du hast, Sexismus im Alltag zu begegnen.</i></p>
+                            <br>
+                        
+
+                            <div class="notice">
+                                <p><b>TRIGGER WARNUNG</b>: Die folgenden Szenarien beinhalten verbale Gewalt gegenüber Frauen. Wir nutzen diese Wörter nicht, um diese Gewalt zu reproduzieren, sondern um sie in aller Deutlichkeit sichtbar zu machen und spezifische Gegenreaktionen zu verdeutlichen.</p>
+                            </div>
+
+                            <div class=" options-wrapper">
+                                <div class="option option-of-3">
+                                    <p>Nachts in der Straßenbahn. Eine Gruppe junger Männer spricht eine Frau an, die kein Interesse an der Unterhaltung zeigt. Ungeachtet ihrer Ablehnung, setzen sich die Männer zu ihr und bedrängen sie auch körperlich.</p>
+                                </div>
+
+                                <div class="option option-of-3">
+                                    <p>Eine Arbeitsbesprechung am Anfang der Woche. Ein Kollege beklagt, dass eine andere Kollegin gekündigt hat: “Dieser Arsch war schon immer ein guter Grund morgens aufzustehen.”</p>
+                                </div>
+
+                                <div class="option option-of-3">
+                                    <p>Eine Whatsapp-Gruppe mit Freunden. Gemeinsam wird das nächste Treffen geplant. Ein männlicher Freund verwendet beiläufig das Wort “Nutten”, um Frauen ganz allgemein zu bezeichnen.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="nav-section level2" id="act-2">
+                            <h4 class="heading subheading">Das Schweigen überwinden</h4>
+                            <p>In allen der drei beschriebenen Szenarien ist die Reaktion aller Anwesenden häufig gleich: Nichtstun. Oft brauchen wir Zeit, die Situation als sexistisch zu erkennen oder wissen nicht, wie wir angemessen reagieren sollen. Doch zumindest ist der erste Schritt jetzt getan: Wir haben den Sexismus erkannt und können nun überlegen, was wir hätten anders machen können.<br>Doch Schweigen reicht nicht.<br>Viele Männer befürworten Gleichstellung. Leider teilen sie die eigenen Überzeugungen nicht häufig genug. Stattdessen schweigen viele von ihnen, wenn Frauen sexistisch behandelt werden oder sexistisch über Frauen gesprochen wird. Indem sie ihre eigentlichen Überzeugungen nicht deutlich machen und Sexismus nicht offen widersprechen, wird Sexismus vom Rest der Gruppe als normal wahrgenommen.</p>
+                        </div>
+
+                        <div class="nav-section level2" id="act-3">
+                            <h4 class="heading subheading">Solidarität brechen</h4>
+                            <p>Gerade in Szenarien wie #2 oder #3 kann es schwierig sein, Sexismus anzusprechen, weil die sexistische Person ein Freund oder Arbeitskollege ist. Du fühlst Dich der Person verbunden und möchtest sie nicht verletzen, denn der Hinweis auf Sexismus kann schnell persönlich genommen werden. Dabei kann es helfen, wenn Du das Verhalten und   nicht die Person kritisierst. So wird es einfacher auf einer weniger persönlichen Ebene über Sexismus zu reden - immerhin glauben viele Menschen, dass Sexismus etwas Schlechtes ist, was schlechte Menschen aktiv und bewusst tun. Ein Kommentar wird in diesem Kontext deshalb schnell als Angriff auf die Person und nicht als Kritik am Verhalten oder als Angebot zur Reflexion aufgefasst.<br>Trotzdem müssen wir Sexismus ansprechen - besonders als Männer. Kritik an sexistischem Verhalten wird von anwesenden Männern oft als legitimer betrachtet und ernster genommen, als wenn eine Frau diese äußern würde.<sup><a  href="#act-s1">1</a></sup> Deswegen liegt es in der Verantwortung aller Männer, die an Gleichstellung glauben, sich nicht solidarisch mit sexitischem Verhalten zu zeigen, sondern dagegen zu handeln. Auch wenn das einen Bruch mit sozialen Normen und freundschaftlichen Tabu-Themen bedeutet.</p>
+                            
+
+                            <div class=" options-wrapper">
+                                <div class="option option-of-3">
+                                    <p>Ich stehe auf und vermittle damit meinem Umfeld und mir, dass ich bereit bin, mich einzumischen.</p>
+                                </div>
+
+                                <div class="option option-of-3">
+                                    <p>Ich zeige mich irritiert. “Wie meinst Du das denn?”</p>
+                                </div>
+
+                                <div class="option option-of-3">
+                                    <p>Eine kurze Antwort reicht.<br><br>“Komm schon. Wenn du ‘Frauen’ meinst, kannst du auch ‘Frauen’ schreiben, oder?”</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="nav-section level2" id="act-4">
+                            <h4 class="heading subheading">Zivilcourage zeigen</h4>
+                            <p>Sich öffentlich deutlich zu positionieren, ist nicht einfach: Du musst die passive Norm durchbrechen und selbst aktiv am Geschehen teilhaben. Dabei richtig wahrgenommen zu werden, ohne die Dinge schlimmer zu machen, ist schwierig.</p>
+
+                            <div class="notice">
+                                <p><i>Achtung:</i> Wenn Du Dich einmischst, machst Du Dich (zumindest für kurze Zeit) zum Zentrum der Aufmerksamkeit und lenkst gegebenenfalls noch mehr Aufmerksamkeit auf die Gesamtsituation. Bitte inszeniere Dich nicht als Retter der Frauenwelt. Wenn Du Dich einmischst, kann Dein Verhalten hilfreich sein, um Sexismus abzubauen. Versuche dies aber in dem Bewusstsein tun, dass Frauen sich genauso gut auch selbst wehren können. Handle unterstützend, anstatt direkt die Kontrolle an Dich zu reißen.</p>
+                            </div>
+
+                            <p>In solchen Situationen solltest Du Dich daher immer zuerst bei der betroffenen Person versichern, ob sie Hilfe benötigt. Erst, wenn Du sicher bist, dass die eigene Einmischung die Situation nicht schlimmer macht, kannst Du darüber nachdenken, weitere Schritte zu gehen.<br><br>Es kann außerdem helfen, andere Menschen in der Gruppe auf Sexismus aufmerksam zu machen und sie so auch zu aktivieren. Je mehr Menschen innerhalb einer Gruppe sexistisches Verhalten offen anprangern, desto deutlicher ist, dass die gesamte Gruppe das Verhalten nicht duldet. Außerdem kann es in freundschaftlichen Kontexten helfen, wenn Du Dich auf Unterstützung durch weitere Personen verlassen kannst, sobald Sexismus Thema wird.</p>
+
+                            <div class=" options-wrapper">
+                                <div class="option option-of-3">
+                                    <p>Ich frage die Frau erst, ob ich sie unterstützen kann. Als sie sich über die Gruppe Männer beschwert, sehe ich mich im Wagen um und frage “Bin ich der einzige, der das genauso unerträglich findet?” um mehr Menschen mit einzubeziehen.</p>
+                                </div>
+
+                                <div class="option option-of-3">
+                                    <p>Ich wende mich an einen anderen Arbeitskollegen. “Wie geht es dir denn mit so einem Spruch?”</p>
+                                </div>
+
+                                <div class="option option-of-3">
+                                    <p>Eine weitere kurze Nachricht:<br><br>“Wie sehen das denn die anderen Jungs in der Gruppe? Sind eure Freundinnen auch “Nutten”?”</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="nav-section level2" id="act-5">
+                            <h4 class="heading subheading">Schritt für Schritt</h4>
+                            <p>Sich offen gegen Sexismus zu stellen ist ein Prozess. Sexismus tritt im Alltag in tausenden Variationen auf. Du kannst nicht von einem auf den anderen Tag wissen, wie Du mit allen sexistischen Situationen umgehst. Aber Du musst die Entscheidung treffen, überhaupt den Mund aufzumachen. Das kann mit Seufzern oder kurzen Einwürfen anfangen und sich von dort aus weiter entwickeln. Wichtig ist, dass Du beginnst, Dich einzumischen - beginnst, etwas zu tun.<br><br>Dabei bist Du aber nicht auf Dich allein gestellt - wenn Du mit Freund:innen über Sexismus und den eigenen Umgang damit sprichst, unterstützt ihr euch gegenseitig und könnt in Zukunft besser auf Sexismus reagieren. Es ist einfacher, sich bemerkbar zu machen, wenn Du weißt, dass Du unterstützt wirst.</p>
+                        </div>
+                    </div>
+                </div>  
             </div>
             
-            <div class="chapter" id="reflection">
-                <div class="chapter" id ="work">
-                <h2>Was können Männer konkret tun</h2>
-                <div class ="chapter-top">
-                    <img src="img/text/h_bckgrnd.png" alt="gezeichneter Hintergrund">
-                    <div class="chapter-heading">
-                        <h1>Sich Selbst <br> Reflektieren</h1>
-                    </div>                    
-                </div>
-
-                <p class="main-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam maximus urna in est tempor, ut pharetra nisl malesuada. Fusce erat sapien, tincidunt ac felis a, dignissim cursus eros. Nam ac ultrices enim. Cras accumsan et erat non blandit. Etiam rutrum hendrerit neque mollis ultrices. In ac volutpat purus. Nam tincidunt libero at purus commodo rhoncus. Donec dictum tincidunt tellus a viverra. Morbi elementum feugiat ligula, non varius neque hendrerit ac. Pellentesque scelerisque mauris ut volutpat efficitur. Vestibulum tincidunt ultricies blandit. </p>
-            </div>  
-            
-            <div class="chapter" id="act">
-                <h2>Was können Männer konkret tun</h2>
-                <div class ="chapter-top">
-                    <img src="img/text/h_bckgrnd.png" alt="gezeichneter Hintergrund">
-                    <div class="chapter-heading">
-                        <h1>Im Alltag <br> Handeln</h1>
+            <div class="nav-section level1"  id="intersectionality">
+                <div class="chapter">
+                    <h2 class="heading">Was können Männer konkret tun</h2>
+                    <div class ="chapter-top">
+                        <img src="img/text/h_bckgrnd.png" alt="gezeichneter Hintergrund">
+                        <div class="chapter-heading">
+                            <h1>Über den Tellerrand: Intersektionalität</h1>
+                        </div>    
                     </div>     
-                </div>          
-                
-                <p class="main-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam maximus urna in est tempor, ut pharetra nisl malesuada. Fusce erat sapien, tincidunt ac felis a, dignissim cursus eros. Nam ac ultrices enim. Cras accumsan et erat non blandit. Etiam rutrum hendrerit neque mollis ultrices. In ac volutpat purus. Nam tincidunt libero at purus commodo rhoncus. Donec dictum tincidunt tellus a viverra. Morbi elementum feugiat ligula, non varius neque hendrerit ac. Pellentesque scelerisque mauris ut volutpat efficitur. Vestibulum tincidunt ultricies blandit. </p>
-            </div>  
-            
-            
-            <div class="chapter" id="intersectionality">
-                <h2>Was können Männer konkret tun</h2>
-                <div class ="chapter-top">
-                    <img src="img/text/h_bckgrnd.png" alt="gezeichneter Hintergrund">
-                    <div class="chapter-heading">
-                        <h1>Über den Tellerrand: Intersektionalität</h1>
-                    </div>    
-                </div>     
-                
-                <p class="main-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam maximus urna in est tempor, ut pharetra nisl malesuada. Fusce erat sapien, tincidunt ac felis a, dignissim cursus eros. Nam ac ultrices enim. Cras accumsan et erat non blandit. Etiam rutrum hendrerit neque mollis ultrices. In ac volutpat purus. Nam tincidunt libero at purus commodo rhoncus. Donec dictum tincidunt tellus a viverra. Morbi elementum feugiat ligula, non varius neque hendrerit ac. Pellentesque scelerisque mauris ut volutpat efficitur. Vestibulum tincidunt ultricies blandit. </p>
-            </div>  
+                    
+                    <div class="main-text">
+                        <div class="all-in-all">
+                            <div class="chapter-icon">
+                                <img class="circle" src="img/text/circle.png" alt="gezeichneter Kreis">
+                                <img class="icon" src="img/text/chptrs/act.png" alt="gezeichnete Faust">
 
-            <div class="chapter" id="atlast">
-                <h2>Zu guter Letzt</h2>
-                <div class ="chapter-top">
-                    <img src="img/text/h_bckgrnd.png" alt="gezeichneter Hintergrund">
-                    <div class="chapter-heading">
-                        <h1>Gemeinsam Zukunft gestalten</h1>
-                    </div>                    
-                </div>
+                            </div>
+                            <div class="all-in-all-text">
+                                <p><b>Diskriminierung</b> gibt es <b>nicht nur wegen des Geschlechts</b>, sondern zum Beispiel <b>auch wegen der Herkunft</b>, <b>der Hautfarbe</b>, <b>des Einkommens</b>, <b>der Bildung</b>, <b>des Alters</b>, <b>einer Behinderung</b>, <b>usw</b>. Diese Diskriminierungen können sich überschneiden und gegenseitig verstärken. Es ist wichtig, dies zu berücksichtigen, zum Beispiel dadurch, indem <b>die “andere Frage” gestellt wird</b>.  Der <b>Einsatz für Geschlechtergleichheit kann so ein Startpunkt sein</b>, auch andere soziale Bewegungen zu unterstützen.</p>
+                            </div>
+                        </div>
 
-                <p class="main-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam maximus urna in est tempor, ut pharetra nisl malesuada. Fusce erat sapien, tincidunt ac felis a, dignissim cursus eros. Nam ac ultrices enim. Cras accumsan et erat non blandit. Etiam rutrum hendrerit neque mollis ultrices. In ac volutpat purus. Nam tincidunt libero at purus commodo rhoncus. Donec dictum tincidunt tellus a viverra. Morbi elementum feugiat ligula, non varius neque hendrerit ac. Pellentesque scelerisque mauris ut volutpat efficitur. Vestibulum tincidunt ultricies blandit. </p>
-            </div>  
+                        <p>Wenn man diesen Text liest, dann entstehen im Kopf automatisch Bilder von Menschen, um die es geht. In den meisten Fällen sind diese Bilder welche von weißen Frauen der Mittelschicht in Deutschland. Andere Teile der Realität werden in der Gesellschaft (zum Beispiel von Medien und der Politik) oft unsichtbar gemacht. Aber was ist eigentlich mit schwarzen Frauen? Oder Frauen in anderen Ländern? Ihre Erfahrungen unterscheiden sich oft stark von denen, an die wir zuerst denken. Neben Geschlecht und Ethnie können soziale Schicht, Sexualität, Behinderung, Alter und viele weitere Faktoren wichtig sein.<br><br>Dazu ein Beispiel:<br>Im Jahr 1976 verklagen die General Motors-Angestellte Emma DeGraffenreid und vier ihrer afroamerikanischen Kolleginnen den Autohersteller wegen Diskriminierung schwarzer Frauen Diese werden nicht für Büroarbeiten eingestellt. Der Konzern argumentiert, schwarze Frauen würden nicht diskriminiert. Einerseits würden für die Fabrikarbeit weiße nicht über schwarze Männer bevorzugt, also gebe es keine Diskriminierung aufgrund der Hautfarbe. Andererseits würden für die Büroarbeit weiße Männer nicht über weiße Frauen bevorzugt, also gebe es keine Diskriminierung aufgrund des Geschlechts. GM bekommt Recht.<br><br>Die Juristin Kimberlé Crenshaw schreibt 13 Jahre später über diesen Fall, als sie den Begriff der Intersektionalität prägt. Den “Schnittpunkt” (intersection) unterschiedlicher Axen von Diskriminierung erleben Menschen oft anders als jede der Axen für sich; die Erfahrungen schwarzer Frauen sind nicht einfach eine Mischung aus denen weißer Frauen und schwarzer Männer.</p>
+                        
+                        <div class="nav-section level2" id="intersectionality-1">
+                            <h4 class="heading subheading" >Geschlechtergerechtigkeit als Startpunkt</h4>
+                            <p>Frage doch mal in Deinem Freundeskreis nach, ob und wenn ja wie ihr schon einmal von Diskriminierung betroffen wart. Gab es dabei unterschiedliche Faktoren, die zusammengespielt haben? Auch Männer werden auf unterschiedliche Arten diskriminiert, etwa aufgrund von Aussehen, Bildung oder Einkommen. Wie auch sexistische Diskriminierung, kann das zum Ausschluss aus bestimmten Gruppen oder von bestimmten Jobs führen oder sogar zu Gewalt. Und: Diskriminierung verstärkt sich von selbst. Bekommt eine Person zum Beispiel wegen ihrer Hautfarbe keinen Job, dann bedeutet das ein geringeres Einkommen und geringere Chancen auf Bildung für ihre Kinder, was wieder zu Diskriminierung führt. Ein Teufelskreis also.<br><br>Wenn Du bis hierher gelesen hast, ist das schon viel Einsatz für Geschlechtergerechtigkeit. Du kannst diesen Einsatz zum Startpunkt machen, um mehr über andere soziale Bewegungen zu lernen. Solidarität diskriminierter Gruppen miteinander ist außerdem spannend: Welche Vorteile gibt es, aber wo ist auch Konfliktpotential? Wenn Du Lust auf mehr bekommen hast, findest Du im Kapitel “zum Weiterlesen” eine Liste mit weiterführenden Links zum Beispiel zur Geschichte der Gruppe “Lesben und Schwule unterstützen die Bergleute”.</p>
+                        </div>
+
+                        <div class="nav-section level2" id="act-5">
+                            <h4 class="heading subheading" id="intersectionality-2">Die andere Frage stellen</h4>
+                            <p>Und auch beim Thema Geschlechtergerechtigkeit selbst ist Intersektionalität wichtig: Die Situation von Frauen in anderen Ländern kann sich beispielsweise stark von denen in Deutschland unterscheiden. So gibt es indische und islamische Frauenbewegungen, die vor ganz eigenen Herausforderungen stehen. Aber auch in der deutschen Gesellschaft machen Frauen unterschiedliche Erfahrungen, je nachdem, ob sie arm, lesbisch, schwarz sind oder eine Behinderung haben. Diese anderen Perspektiven sind wichtig, wenn es darum geht, Diskriminierung zu bekämpfen. Mari Matsuda nennt das “die andere Frage stellen”. Wenn etwas rassistisch ist, welche Rolle spielt Geschlecht? Wenn etwas sexistisch ist, welche Rolle spielt sexuelle Orientierung? Diese Methode kann helfen, die Bilder, die im Kopf entstehen (zum Beispiel von der weißen Frau der Mittelschicht) zu hinterfragen.</p>
+                        </div>
+
+                        <div class="nav-section level2" id="act-5">
+                            <h4 class="heading subheading" id="intersectionalityct-3">Was kannst Du tun?</h4>
+                            <ul>
+                                <li>Setze Dich für alle Frauen ein und schließe zum Beispiel trans Frauen nicht aus. Viele trans Frauen machen die Erfahrung, dass sie in Frauenhäusern oder Frauengruppen nicht willkommen sind. Sie werden dort ausgeschlossen, weil ihnen bei Geburt das männliche Geschlecht zugewiesen wurde.</li>
+                                <li>Informiere Dich über die Situation von Frauen im Globalen Süden, von Frauen anderer Hautfarbe und Frauen mit geringem Einkommen.</li>
+                                <li>Bringe die Dimension Geschlecht auch in anderen Zusammenhängen ein. Wenn Du Dich z.B. für Klimaschutz engagierst, sprich mit anderen darüber, dass Frauen besonders vom Klimawandel betroffen sind.<sup><a  href="#intersectionality-s1">1</a></sup></li>
+                                <li>Berücksichtige auch, wie Männer unterschiedliche Erfahrungen machen. Weil von Männern Stärke erwartet wird, kann zum Beispiel eine Behinderung bei einem Mann zu umso mehr Diskriminierung führen.</li>
+                            </ul>
+                        </div>
 
 
-            <div class="chapter" id="readon">
-                <h2>Anhang</h2>
-                <div class ="chapter-top">
-                    <img src="img/text/h_bckgrnd.png" alt="gezeichneter Hintergrund">
-                    <div class="chapter-heading-1l">
-                        <h1>Zum Weiterlesen</h1>
-                    </div>                    
-                </div>
-
-                <p class="main-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam maximus urna in est tempor, ut pharetra nisl malesuada. Fusce erat sapien, tincidunt ac felis a, dignissim cursus eros. Nam ac ultrices enim. Cras accumsan et erat non blandit. Etiam rutrum hendrerit neque mollis ultrices. In ac volutpat purus. Nam tincidunt libero at purus commodo rhoncus. Donec dictum tincidunt tellus a viverra. Morbi elementum feugiat ligula, non varius neque hendrerit ac. Pellentesque scelerisque mauris ut volutpat efficitur. Vestibulum tincidunt ultricies blandit. </p>
-            </div>  
-            
-            <div class="chapter" id="sources">
-                <h2>Anhang</h2>
-                <div class ="chapter-top">
-                    <img src="img/text/h_bckgrnd.png" alt="gezeichneter Hintergrund">
-                    <div class="chapter-heading-1l">
-                        <h1>Quellenangaben</h1>
-                    </div>                    
-                </div>
-
-                <p class="main-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam maximus urna in est tempor, ut pharetra nisl malesuada. Fusce erat sapien, tincidunt ac felis a, dignissim cursus eros. Nam ac ultrices enim. Cras accumsan et erat non blandit. Etiam rutrum hendrerit neque mollis ultrices. In ac volutpat purus. Nam tincidunt libero at purus commodo rhoncus. Donec dictum tincidunt tellus a viverra. Morbi elementum feugiat ligula, non varius neque hendrerit ac. Pellentesque scelerisque mauris ut volutpat efficitur. Vestibulum tincidunt ultricies blandit. </p>
+                    </div>
+                </div>  
             </div>
 
+            <div class="nav-section level1" id="atlast">
+                <div class="chapter">
+                    <h2 class="heading">Zu guter Letzt</h2>
+                    <div class ="chapter-top">
+                        <img src="img/text/h_bckgrnd.png" alt="gezeichneter Hintergrund">
+                        <div class="chapter-heading">
+                            <h1>Gemeinsam Zukunft gestalten</h1>
+                        </div>                    
+                    </div>
+
+                    <div class="main-text">
+                        <p>Glückwunsch! Du hast es geschafft - zumindest was diesen Guide angeht. Auf dem Weg hierher hast Du hoffentlich einige Anregungen mitnehmen können.<br><br>Jetzt ist eine gute Gelegenheit, kurz in Dich zu gehen. Was löst der Guide in Dir aus? Wie fühlst Du Dich?<br>Viele der Impulse kann man einfach umsetzen, andere sind schwere Kost, wie zum Beispiel über den eigenen Sexismus nachzudenken. Das kann anstrengend, kräftezehrend und auch verunsichernd sein. Kein Wunder, immerhin versuchen wir Ungerechtigkeiten abzuschaffen, die über Jahrhunderte verfestigt wurden.<br>Auch wenn das Erreichen von Geschlechtergerechtigkeit nach Arbeit und Anstrengung klingt, sollten wir das Ziel nicht aus den Augen verlieren: Wir schaffen die Grundlage für eine Welt, in der künftige Generationen freier sind. Wir legen den Grundstein dafür, dass Menschen sich in Zukunft in allen Lebensbereichen unabhängig vom Geschlecht und auf Grundlage ihrer eigenen Vorstellungen entwickeln können.<br>Gleichstellung ist auch für Männer eine Chance aktiv mit Anderen in den Dialog zu treten und neue Sichtweisen kennenzulernen. Man(n) lernt neue Seiten an sich selbst und seiner Umwelt kennen. Man(n) intensiviert die Beziehungen und die Fürsorge um sich und Andere. Gleichzeitig wird man(n) ebenso umsorgt, erkannt und anerkannt.<br>Lasst uns gemeinsam Verantwortung übernehmen und unseren Überzeugungen Taten folgen. Lasst uns gemeinsam die Zukunft gestalten!</p>
+                    </div>
+                </div>  
+            </div>
+
+
+            <div class="nav-section level1" id="readon">
+                <div class="chapter appendix" >
+                    <h2 class="heading">Anhang</h2>
+                    <div class ="chapter-top">
+                        <img src="img/text/h_bckgrnd.png" alt="gezeichneter Hintergrund">
+                        <div class="chapter-heading-1l">
+                            <h1>Zum Weiterlesen</h1>
+                        </div>                    
+                    </div>
+
+                    <div class="nav-section level2" id="readon-conversation">
+                        <h4 class="heading subheading">Mit anderen ins Gespräch kommen</h4>
+                        <p>Liste von Filmen, die eine gute Diskussionsgrundlage für das Thema Gleichstellung bieten:</p>
+                        <ul>
+                            <li>Alien (1986)</li>
+                            <li>Boyhood (2014)</li>
+                            <li>Clueless (1995)</li>
+                            <li>Die Göttliche Ordnung (2017)</li>
+                            <li>Female Pleasure (2018)</li>
+                            <li>Kein Mann für leichte Stunden (2017)</li>
+                            <li>Kill Bill (2003)</li>
+                            <li>Mad Max: Fury Road (2015)</li>
+                            <li>Nur eine Frau (2018)</li>
+                            <li>Nymphomaniac (2013)</li>
+                            <li>On the Basis of Sex (2018)</li>
+                            <li>Orange is the New Black (2013)</li>
+                            <li>Proxima (2019)</li>
+                            <li>Report der Magd (2017)</li>
+                            <li>Zornige indische Göttinnen (2016)</li>
+                        </ul>
+                    </div>
+
+                    <div class="nav-section level2" id="readon-work">
+                        <h4 class="heading subheading">Arbeitsleben</h4>
+                        <ul>
+                            <li><a  target="_blank" href="https://www.catalyst.org/reports/interrupting-sexism-workplace-men/">Studien und Webseite von Catalyst Inc</a>. (Catalyst Inc. ist eine Non-Profit-Organisation, die sich für die Förderung von Frauen am Arbeitsplatz einsetzt)
+                            </li>
+                            <li>Infos zu Mentoringprogrammen 
+                                <ul>
+                                    <li><a  target="_blank" href="">Catalyst.org</a></li>
+                                    <li><a  target="_blank" href="">HBR.org</a></li>
+                                </ul>
+                            </li>
+                            <li>Antidiskriminierungsstelle des Bundes (2010) <a  target="_blank" href="">Forschung der ADS auf einen Blick. Beschwerdestelle und Beschwerdeverfahren nach § 13 AGG</a></li>
+                            <li>Antidiskriminierungsstelle des Bundes (2013) <a  target="_blank" href="">Leitfaden. Netzwerke in der Antidiskriminierungsarbeit</a></li>
+                            <li>Antidiskriminierungsstelle des Bundes (2018) <a  target="_blank" href="">Was tun bei sexueller Belästigung am Arbeitsplatz? Leitfaden für Beschäftigte, Arbeitgeber und Betriebsräte</a></li>
+                            <li>Bohnet, Iris (2016) <a  target="_blank" href="">What Works: Gender Equality</a></li>
+                            <li>Medizinische Hochschule Hannover (2017) <a  target="_blank" href="">Leitlinie zum Umgang mit sexualisierter Diskriminierung und Gewalt an der MHH</a></li>
+                            <li>Scholz, David (2021) <a  target="_blank" href="">Transidentität und drittes Geschlecht im Arbeitsumfeld. Ein Praxisbuch für Unternehmen und den öffentlichen Dienst</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="nav-section level2" id="readon-relationships">
+                        <h4 class="heading subheading">Beziehung & Partner:innenschaften</h4>
+                        <ul>
+                            <li>Les Migras (2018) <a  target="_blank" href="">Grenzen setzen. Ein Arbeitsbuch</a> </li>
+                            <li>Sara, Hassan (2020) <a  target="_blank" href="">Grauzonen, gibt es nicht. Muster sexueller  Belästigung mit dem Red-Flag-System erkennen</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="nav-section level2" id="readon-parenthood">
+                        <h4 class="heading subheading">Elternschaft</h4>
+                        <ul>
+                            <li><a  target="_blank" href="">Materialien und Downloads für intersektionale Kinderpädagogik</a></li>
+                            <li><a  target="_blank" href="">Dokumentation über Entstehung von Rollenbildern</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="nav-section level2" id="readon-sex">
+                        <h4 class="heading subheading">Sexualität</h4>
+                        <ul>
+                            <li>Um passende Kondome zu finden, reicht es, den Umfang Deines Penis zu bestimmen. Du merkst beim Abrollen, ob das Kondom richtig sitzt. Es sollte weder zu weit noch zu eng sein, ein paar Falten sind normal, da Penisse nicht überall gleich dick sind. Die Länge ist nicht so wichtig, da jedes Kondom so lang wie eine Vulva ist. Auch wenn das fertig abgerollte Kondom nicht Deinen ganzen Penis bedeckt, ist der Schutz gewährleistet. Anleitung, wie Du den Umfang bestimmst, findest Du zum Beispiel bei <a  target="_blank" href="https://www.lilli.ch/kondom_praeservativ_groesse_richtig">lilli.ch</a> oder auf <a  target="_blank" href="https://www.liebesleben.de/fuer-alle/kondome/kondomgroessen/">liebesleben.de</a>. Jetzt einfach ein paar Probepackungen bestellen.</li>
+                            <li><a  target="_blank" href=" https://www.liebesleben.de/fuer-alle/sexuell-uebertragbare-infektionen/sti-was-ist-das/">Hier</a> kannst Du nachlesen, welche sexuell übertragbaren Infektionen es gibt.</li>
+                            <li>Als Orgasm Gap wird übrigens die Tatsache beschrieben, dass bei homosexuellem Sex Frauen doppelt so häufig als Frauen, die mit Männern schlafen, zum Orgasmus kommen und der Anteil der Frauen “die nie oder selten” kommen fällt um zwei Drittel. Das gilt auch für bisexuelle Frauen. Sie kommen häufiger beim Sex mit Frauen als beim Sex mit Männern.<sup><a  href="#sexuality-s2">2</a></sup> Übrigens gaben in einer Studie, in der 904 Frauen aus Amerika befragt wurden, immerhin 15% an, kein Recht zu haben, den Sex zu unterbrechen oder zu sagen, was sie sich wünschen.<sup><a  href="#sexuality-s3">3</a></sup> Tatsächlich gaben bis zu 10% der heterosexuellen Frauen in Partnerschaften an penetrativen Sex nicht zu mögen.<sup><a  href="#sexuality-s4">4</a></sup> Beides mögen Gründe sein, warum immerhin eine von drei Frauen im letzten Monat einen Orgasmus vorgespielt hat. Jede Fünfte, also 20% der befragten Frauen, trauen sich nicht zu sagen, wenn ihr Partner zu grob mit ihnen umgeht.<sup><a  href="#sexuality-s5">5</a>,<a  href="#sexuality-s6">6</a></sup> </li>
+                            <li>Konkrete Handlungsideen: Eine der vielen online verfügbaren <a  target="_blank" href="https://www.scarleteen.com/sites/files/scarleteen/yesnomaybe.pdf">“YesNoMaybe” Listen</a> oder das <a  target="_blank" href="https://bettymartin.org/videos/">Wheel of Consent</a>.</li>
+                            <li><a  target="_blank" href="https://www.lilli.ch/mann_verhuetung">Übersicht und Infos über Verhütungsmethoden für Männer</a></li>
+                            <li>Büttner, Melanie (2020) <a  target="_blank" href="https://www.beltz.de/sachbuch_ratgeber/buecher/produkt_produktdetails/42826-ist_das_normal.html">Ist das normal? Sprechen wir über Sex, wie Du ihn willst</a></li>
+                            <li>Komisaruk, Barry; Whipple, Beverly (2012) <a  target="_blank" href="https://www.researchgate.net/publication/241739177_Non-genital_orgasms">Non-Genital Orgasms</a>. In Sexual and Relationship Therapy 26 (4), 356-372
+                            </li>
+                            <li>Lewina, Katja (2021) Bock - Männer und Sex.</li>
+                            <li>Méritt, Laura (2012) Frauenkörper neu gesehen - ein illustriertes Handbuch.</li>
+                            <li>Pásztor, Suann; Gens, Klaus-Dieter (2004)  <a  target="_blank" href="https://www.junfermann.de/titel/ich-hoere-was-das-du-nicht-sagst/73">Ich höre was, das Du nicht sagst. Gewaltfreie Kommunikation in Beziehungen</a>. Junfermann.</li>
+                            <li>Sanyal, Mithu (2009) Vulva. <a  target="_blank" href="https://www.wagenbach.de/buecher/titel/267-vulva.html">Die Enthüllung des unsichtbaren Geschlechts</a></li>
+                            <li>Sanyal, Mithu (2020) <a  target="_blank" href="https://edition-nautilus.de/programm/vergewaltigung/">Vergewaltigung. Aspekte eines Verbrechens</a>.</li>
+                            <li>Sztenc, Michael (202018) <a  target="_blank" href="https://www.hirzel.de/titel/61376.html">Klappt’s?. Vom Leistungssex zum Liebesspiel</a>. </li>
+                        </ul>
+                    </div>
+
+                    <div class="nav-section level2" id="readon-intersectionality">
+                        <h4 class="heading subheading">Über den Tellerrand: Intersektionalität</h4>
+                        <ul>
+                            <li>Bücher
+                                <ul>
+                                    <li>Caroline Criado-Perez (2020) <a  target="_blank" href="https://www.penguinrandomhouse.de/Paperback/Unsichtbare-Frauen/Caroline-Criado-Perez/btb/e561586.rhd">Unsichtbare Frauen. Wie eine von Daten beherrschte Welt die Hälfte der Bevölkerung ignoriert</a> </li>
+                                    <li>Eddo-Lodge, Reni (2019) <a  target="_blank" href="https://www.bloomsbury.com/us/why-im-no-longer-talking-to-white-people-about-race-9781635572957/">Why I’m No Longer Talking to White People About Race</a></li>
+                                    <li>Hasters, Alice (2019) <a  target="_blank" href="https://www.hanser-literaturverlage.de/buch/was-weisse-menschen-nicht-ueber-rassismus-hoeren-wollen-aber-wissen-sollten/978-3-446-26425-0/">Was weiße Menschen nicht über Rassismus hören wollen aber wissen sollten</a></li>
+                                    <li>Gümüşay, Kübra (2020) <a  target="_blank" href="https://www.hanser-literaturverlage.de/buch/sprache-und-sein/978-3-446-26595-0/">Sprache und Sein</a></li>
+                                    <li>Robinet, Jayrôme (2019) <a  target="_blank" href="https://www.hanser-literaturverlage.de/buch/mein-weg-von-einer-weissen-frau-zu-einem-jungen-mann-mit-migrationshintergrund/978-3-446-26207-2/">Mein Weg von einer weißen Frau zu einem jungen Mann mit Migrationshintergrund</a></li>
+                                    <li>Sanyal, Mithu (2021) <a  target="_blank" href="https://www.hanser-literaturverlage.de/buch/identitti/978-3-446-26921-7/">Identitti</a></li>
+                                    <li>Scott, Linda (2020) <a  target="_blank" href="https://www.hanser-literaturverlage.de/buch/das-weibliche-kapital/978-3-446-26780-0/">Das weibliche Kapital</a></li>
+                                    <li>Seager, Joni (2020) <a  target="_blank" href="https://www.hanser-literaturverlage.de/buch/der-frauenatlas/978-3-446-26829-6/">Der Frauenatlas.; Ungleichheit verstehen</a></li>
+                                </ul>
+                            </li>
+                            <li>Podcasts
+                                <ul>
+                                    <li><a  target="_blank" href="https://feuerundbrot.de/">Feuer & Brot</a></li>
+                                    <li><a  target="_blank" href="https://www.funk.net/channel/kanackische-welle-12221?viewtype=podcast">Kanackische Welle</a></li>
+                                    <li><a  target="_blank" href="https://riceandshine-podcast.de/">Rice and Shine</a></li>
+                                </ul>
+                            </li>
+                            <li>Artikel
+                                <ul>
+                                    <li>UN Women (2020) <a  target="_blank" href="https://www.unwomen.org/en/news/stories/2020/6/explainer-intersectional-feminism-what-it-means-and-why-it-matters">Intersectional Feminism. What It Means and Why It Matters Right Now</a></li>
+                                    <li>Nhi Le(Kolumne) <a  target="_blank" href="https://www.jetzt.de/tag/the-female-gaze">The Female Gaze</a></li>
+                                </ul>
+                            </li>
+                            <li>Instagram-Kanäle
+                                <ul>
+                                    <li><a  target="_blank" href="https://www.instagram.com/black_is_excellence">@black_is_excellence</a></li>
+                                    <li><a  target="_blank" href="https://www.instagram.com/habibitus">@habibitus</a></li>
+                                    <li><a  target="_blank" href="https://www.instagram.com/jewishintersectional">@jewishintersectional</a></li>
+                                    <li><a  target="_blank" href="https://www.instagram.com/minaandherchaos">@minaandherchaos</a></li>
+                                    <li><a  target="_blank" href="https://www.instagram.com/seiten.verkehrt/">@seiten.verkehrt</a></li>
+                                    <li><a  target="_blank" href="https://www.instagram.com/varathas/">@varathas</a></li>
+                                </ul>
+                            </li>
+                            <li><a  target="_blank" href="https://de.wikipedia.org/wiki/Pride_(Film)">Pride</a> - Film über die Unterstützung von Lesben und Schwulen für die Minenarbeiter:innen</li>
+                        </ul>
+                    </div>
+                </div>  
+            </div>
+
+            <div class="nav-section level1" id="sources">           
+                <div class="chapter appendix">
+                    <h2 class="heading">Anhang</h2>
+                    <div class ="chapter-top">
+                        <img src="img/text/h_bckgrnd.png" alt="gezeichneter Hintergrund">
+                        <div class="chapter-heading-1l">
+                            <h1>Quellenangaben</h1>
+                        </div>                    
+                    </div>
+
+                    <p class="main-text">
+                        <div class="nav-section level2" id="sources-intro">
+                            <h4 class="heading subheading">Männer und Gleichstellung (Einführung)</h4>
+                            <div class="source" id="intro-s1"><sup >1</sup> Gümüşay, Kübra (2020) <a target="_blank" href="https://www.hanser-literaturverlage.de/buch/sprache-und-sein/978-3-446-26595-0/">Sprache und Sein</a></div>
+                            <div class="source" id="intro-s2"><sup >1</sup> Irmen, Lisa; Roßberg Nadja (2004) <a target="_blank" href="https://journals.sagepub.com/doi/10.1177/0261927X04266810">Gender Markedness of Language: The Impact of Grammatical and Nonlinguistic Information on the Mental Representation of Person Information</a>. Journal of Language and  Social Psychology. 23(3):272-307.</div>
+                            <div class="source" id="intro-s3"><sup>1</sup> Misersky, Julia.;  Majid, Aasifa; Snijders, Tineke (2019) <a  target="_blank" href="https://www.tandfonline.com/doi/full/10.1080/0163853X.2018.1541382">Grammatical Gender in German Influences How Role-Nouns Are Interpreted: Evidence from ERPs</a>. Discourse Processes, 56:8, 643-654</div>
+                        </div>
+
+                        <div class="nav-section level2" id="sources-work">
+                            <h4 class="heading subheading">Arbeitsleben</h4>
+                            <div class="source" id="work-s1"><sup >1</sup> Eurostat (2020) <a  target="_blank" href="https://ec.europa.eu/eurostat/documents/portlet_file_entry/2995521/3-06032020-AP-DE.pdf/e868ea03-d556-c188-dbbc-e37ac9e0bb55">Nur jede dritte Führungskraft in der EU ist eine Frau</a>. Pressemitteilung </div>
+                            <div class="source" id="work-s2"><sup >2</sup> Zinke, Guido (2020) <a  target="_blank" href="https://www.bpb.de/politik/innenpolitik/arbeitsmarktpolitik/318555/gender-pay-gap">Geschlechterungleichheiten: Gender Pay Gap. Bundeszentrale für politische Bildung: Dossier Arbeitsmarktpolitik</a> </div>
+                            <div class="source" id="work-s3"><sup >3</sup> Bundeszentrale für politische Bildung (2020) <a  target="_blank" href="https://www.bpb.de/nachschlagen/zahlen-und-fakten/soziale-situation-in-deutschland/61705/voll-und-teilzeitbeschaeftigte">Voll- und Teilzeitbeschäftigte. Abhängig Erwerbstätige nach Beschäftigungsumfang und Geschlecht, in absoluten Zahlen, Teilzeitquote in Prozent, 1993 bis 2018</a></div> 
+                            <div class="source" id="work-s4"><sup >4</sup> Hallberg, Stefanie (2006). <a  target="_blank" href="https://web.archive.org/web/20090311021230/http://www.wdr.de/themen/panorama/gesellschaft/familie/familienbild_im_wandel/index.jhtml">So wandelte sich das Familienmodell</a></div>
+                            <div class="source" id="work-s5"><sup >5</sup> Baumgarten, Diana; Burri, Jennifer; Maihofer, Andrea (2017). <a  target="_blank" href="https://genderstudies.philhist.unibas.ch/de/forschung/forschungsprojekte/die-entstehung-der-vorstellung-von-familien-in-der-deutschsprachigen-schweiz">Die Entstehung der Vorstellungen von Familie in der (deutschsprachigen) Schweiz. Analysebericht zu Handen der Metropolitankonferenz Zürich</a></div> 
+                            <div class="source" id="work-s6"><sup >6</sup> Rivera, Lauren (2013). <a  target="_blank" href="https://www.doi.org/10.4135/9781452276199.n142">Homosocial reproduction</a>. In V. Smith (Ed.), Sociology of work: An encyclopedia (Vol. 1, pp. 377-379). SAGE Publications, Inc.</div> 
+                            <div class="source" id="work-s7"><sup >7</sup> Bohnet, Iris (2016) <a  target="_blank" href="https://scholar.harvard.edu/iris_bohnet/what-works">What Works:. Gender Equality</a></div> 
+                            <div class="source" id="work-s8"><sup >8</sup> Gaucher, Danielle; Friesen, Justin; Kay, Aaron (2011) <a  target="_blank" href="https://psycnet.apa.org/record/2011-04642-001">Evidence That Gendered Wording in Job Advertisements Exists and Sustains Gender Inequality</a>. Journal of Personality and Social Psychology 101 (1), 109–128</div>
+                            <div class="source" id="work-s9"><sup >9</sup> Khan, Shawn; Kirubarajan, Abirami; Shamsheri, Tahmina & et al. (2021) <a  target="_blank" href="http://dx.doi.org/10.1136/postgradmedj-2021-140045">Gender bias in reference letters for residency and academic medicine: a systematic review</a>. Postgraduate Medical Journal.</div>
+                            <div class="source" id="work-s10"><sup >10</sup> Schmader, Toni; Whitehead, Jessica & Wysocki, Vicki (2007) <a  target="_blank" href="https://doi.org/10.1007/s11199-007-9291-4">Linguistic Comparison of Letters of Recommendation for Male and Female Chemistry and Biochemistry Job Applicants. Sex Roles 57, 509–514</a></div>
+                            <div class="source" id="work-s11"><sup >11</sup> Correll, Shelley; Simard, Caroline (2016) Research. Vague Feedback Is Holding Women Back Harvard Business Review</div> 
+                            <div class="source" id="work-s12"><sup >12</sup> Schröttle, Monika: Strategien im Umgang mit sexueller Belästigung am Arbeitsplatz – Lösungsstrategien und Maßnahmen zur Intervention, Antidiskriminierungsstelle des Bundes, Erhebung durch: Uni Erlangen-Nürnberg; SOKO Institut für Sozialforschung und Kommunikation, 2020. <a  target="_blank" href="https://www.antidiskriminierungsstelle.de/SharedDocs/pressemitteilungen/DE/2019/20191025_Studie_Sexuelle_Belaestigung.html">Antidiskriminierungsstelle - Homepage - Studie zu sexueller Belästigung am Arbeitsplatz</a></div>
+                            <div class="source" id="work-s13"><sup >13</sup> Onnela, Jukka-Pekka; Waber, Benjamin; Pentland, Alex & et al.  (2014) <a  target="_blank" href="https://www.nature.com/articles/srep05604">Using Sociometers To Quantify Social Interaction Patterns</a>. Scientific Reports 4, 5604</div>
+                            <div class="source" id="work-s14"><sup >14</sup> Leaper, Campbell; Ayres, Melanie M. (2007) <a  target="_blank" href="https://doi.org/10.1177/1088868307302221">A Meta-Analytic Review of Gender Variations in Adults’ Language Use: Talkativeness, Affiliative Speech, and Assertive Speech</a>, Personality and Social Psychology Review, no. 4: 328–63</div>
+                            <div class="source" id="work-s15"><sup >15</sup> Time To Talk (2014) <a  target="_blank" href="http://www.lookwhostalking.se">Look Who Is Talking</a></div>
+                            <div class="source" id="work-s16"><sup >16</sup> Statistisches Bundesamt, <a  target="_blank" href="https://www.destatis.de/DE/Themen/Arbeit/Arbeitsmarkt/Qualitaet-Arbeit/Dimension-3/elternzeit.html">Qualität der Arbeit: Personen in Elternzeit</a> (2019)</div>
+                        </div>
+
+                        <div class="nav-section level2" id="sources-rels">
+                            <h4 class="heading subheading">Beziehung & Partner:innenschaften</h4>
+                            <div class="source" id="relationships-s1"><sup >1</sup> Bundesministerium für Familie, Senioren, Frauen und Jugend (2016) <a  target="_blank" href="https://www.bmfsfj.de/resource/blob/115580/5a9685148523d2a4ef12258d060528cd/maenner-perspektiven-auf-dem-weg-zu-mehr-gleichstellung-data.pdf">Männerperspektiven. Auf dem Weg zu mehr Gleichstellung?</a></div>
+                            <div class="source" id="relationships-s2"><sup >2</sup> Buller, David (2009) <a  target="_blank" href="https://commons.lib.niu.edu/bitstream/handle/10843/22478/Buller%2C%20PopEP%20SciAm.pdf?sequence=1&isAllowed=y">Four Fallacies of Pop Evolutionary Psychology</a>. Scientific American, 300(1), 74-81</div> 
+                            <div class="source" id="relationships-s3"><sup >3</sup> Hobler, Dietmar; Klenner, Christina; Pfahl, Svenja; Sopp, Peter; Wagner, Alexander (2017) <a  target="_blank" href="https://www.boeckler.de/pdf/p_wsi_report_35_2017.pdf">Wer     leistet unbezahlte Hausarbeit? Hausarbeit, Kindererziehung und Pflege im     Geschlechtervergleich</a></div>
+                        </div>
+                        
+                        <div class="nav-section level2" id="sources-parents">
+                            <h4 class="heading subheading">Elternschaft</h4>
+                            <div class="source" id="parenthood-s1"><sup >1</sup> Mead, Margaret (2001) Sex and temperament in three primitive societies</div>
+                            <div class="source" id="parenthood-s2"><sup >2</sup> Statistisches Bundesamt (2021) <a  target="_blank" href="https://www.destatis.de/DE/Service/Statistik-Campus/Datenreport/Downloads/datenreport-2021-kap-2.html">Datenreport 2021. Kapitel 2. Familie, Lebensformen und Kinder</a></div> 
+                            <div class="source" id="parenthood-s3"><sup >3</sup> Abraham, Eyal;  Hendler, Talma; Shapira-Lichter, Irit; & et al. (2014) <a  target="_blank" href="https://www.pnas.org/content/111/27/9792">Father's Brain Is Sensitive to Childcare Experiences</a>, Proceedings of the National Academy of Sciences, 111 (27), 9792-9797.</div>
+                            <div class="source" id="parenthood-s4"><sup >4</sup> Scatliffe, Naomi; Casavant, Sharon; Vittner, Dorothy & et al.(2019) <a  target="_blank" href="https://pubmed.ncbi.nlm.nih.gov/31728399/">Oxytocin and Early Parent-Infant Interactions. A Systematic Review</a>. International Journal of Nursing Sciences, 6 (4), 445-453</div>
+                            <div class="source" id="parenthood-s5"><sup >5</sup> Khoddam, Hannah; Goldenberg, Diane; Stoycos, Sarah & et al. (2020) <a  target="_blank" href="https://pubmed.ncbi.nlm.nih.gov/32307534/">How Do Expectant Fathers Respond to Infant Cry? Examining Brain and Behavioral Responses and the Moderating Role of Testosterone</a>, Social Cognitive and Affective Neuroscience 15(4), 437-446.</div> 
+                            <div class="source" id="parenthood-s6"><sup >6</sup> Raizman JE, Quinn F, Armbruster DA, Adeli K. (2015) Pediatric Reference Intervals for Calculated Free Testosterone, Bioavailable Testosterone and Free Androgen Index in the CALIPER Cohort Clinical Chemistry and Laboratory Medicine 53 (10), 239-243</div>
+                            <div class="source" id="parenthood-s7"><sup >7</sup> NICHD (2005) NICHD Study of Early Child Care and Youth Development, Eunice Kennedy Shriver National Institute of Child Health and Human Development</div>
+                            <div class="source" id="parenthood-s8"><sup >8</sup> Aznar, Ana;  Tenenbaum, Harriet (2015) <a  target="_blank" href="https://bpspsychub.onlinelibrary.wiley.com/doi/10.1111/bjdp.12069">Gender and Age Differences in Parent–Child Emotion Talk</a> British Journal of Developmental Psychology 33 (1), 148-155</div>
+                            <div class="source" id="parenthood-s9"><sup >9</sup> Cicchetti, Dante; Ackerman, Brian; Izard, Carroll (1995) <a  target="_blank" href="https://www.cambridge.org/core/journals/development-and-psychopathology/article/abs/emotions-and-emotion-regulation-in-developmental-psychopathology/B28ADFAEC5D39ECBECB537B8857F5D73">Emotions and Emotion Regulation in Developmental Psychopathology</a>,. Development and Psychopathology 7 (1), 1–10.</div>
+                            <div class="source" id="parenthood-s10"><sup >10</sup> Miller, Cindy; Kochel, Karen; Wheeler, Loey & et al. (2017) <a  target="_blank" href="https://www.sciencedirect.com/science/article/pii/S0022440517300122">Emotions and Emotion Regulation in Developmental Psychopathology</a>, , Journal of School Psychology 61, 75-88.</div>
+                            <div class="source" id="parenthood-s11"><sup >11</sup> LoBue, Vanessa;. DeLoache, Judy (2011). <a  target="_blank" href="https://bpspsychub.onlinelibrary.wiley.com/doi/10.1111/j.2044-835X.2011.02027.x">Pretty in Pink. The Early Development of Gender-Stereotyped Colour Preferences</a>, The British Journal of Developmental Psychology 29 (3), 656-667 </div>
+                            <div class="source" id="parenthood-s12"><sup >12</sup> Eva Heller (1989) <a  target="_blank" href="https://www.rowohlt.de/buch/eva-heller-wie-farben-wirken-9783499619601">Wie Farben wirken. Farbpsychologie, Farbsymbolik, kreative Farbgestaltung</a></div>
+                            <div class="source" id="parenthood-s13"><sup >13</sup> Sweet, Elizabeth (2014) <a  target="_blank" href="https://www.oxfordbibliographies.com/view/document/obo-9780199791231/obo-9780199791231-0155.xml">Dolls</a>, in: Heather Montgomery (Hrsg) Oxford Bibliographies in Childhood Studies</div>
+                        </div>
+
+                        <div class="nav-section level2" id="sources-sex">
+                            <h4 class="heading subheading">Sexualität</h4>
+                            <div class="source" id="sexuality-s1"><sup >1</sup> Meston, Cindy;  Buss, David (2007) <a  target="_blank" href="https://labs.la.utexas.edu/buss/files/2015/09/why-humans-have-sex-2007.pdf">Why Humans Have Sex</a>. Archives of Sexual Behavior 36 (4), 477-507.</div>
+                            <div class="source" id="sexuality-s2"><sup >2</sup> Frederick, David;  John, Kate; Garcia, Justin & et al. (2018) <a  target="_blank" href="https://digitalcommons.chapman.edu/psychology_articles/74/">Differences in Orgasm Frequency Among Gay, Lesbian, Bisexual, and Heterosexual Men and Women in a U.S. National Sample</a>, Archives of Sexual Behavior 47 (1), 273-288</div>
+                            <div class="source" id="sexuality-s3"><sup >3</sup> Rickert, Vaughn Sanghvi, Rupal; Wiemann, Constance (2002)  <a  target="_blank" href="https://www.guttmacher.org/journals/psrh/2002/07/lack-sexual-assertiveness-among-adolescent-and-young-adult-women-cause-concern">Is Lack of Sexual Assertiveness among Adolescent and Young Adult Women a Cause for Concern?</a> Perspectives on Sexual and Reproductive Health 34 (4), 178-183</div>
+                            <div class="source" id="sexuality-s4"><sup >4</sup> Herbenick, Debby;, Bowling, Jessamyn;, Fu Tsung-Chieh & et al. (2017) <a  target="_blank" href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0181198">Sexual Diversity in the United States: Results From a Nationally Representative Probability Sample of Adult Women and Men</a>, PLoS ONE 12(7)</div>
+                            <div class="source" id="sexuality-s5"><sup >5</sup> Jern, Patrick; Hakala, Outi; Kärna, Antti & et al. (2018) <a  target="_blank" href="https://link.springer.com/article/10.1007/s10508-017-1117-z">Longitudinal Assessment of Associations Between Women’s Tendency to Pretend Orgasm, Orgasm Function, and Intercourse-Related Pain in Different Partner Relationship Constellations</a>, Archives of Sexual Behavior, 47 (3), 671-679</div>
+                            <div class="source" id="sexuality-s6"><sup >6</sup> Muehlenhard, Charlene; Shippee, Shippee (2009) <a  target="_blank" href="https://www.tandfonline.com/doi/abs/10.1080/00224490903171794">Men's and Women's Reports of Pretending Orgasm</a>, The Journal of Sex Research 47 (6), 552-567.</div>
+                        </div>
+                        
+                        <div class="nav-section level2" id="sources-refl">
+                            <h4 class="heading subheading">Sich Selbst reflektieren</h4>
+                            <div class="source" id="reflection-s1"><sup >1</sup> Heiden, Iris an der; Wersig, Maria (2017) <a  target="_blank" href="https://www.antidiskriminierungsstelle.de/SharedDocs/downloads/DE/publikationen/Expertisen/expertise_preisdifferenzierung_nach_geschlecht.pdf?__blob=publicationFile&v=3">Preisdifferenzierung nach Geschlecht in Deutschland. Forschungsbericht</a></div> 
+                        </div>
+
+                        <div class="nav-section level2" id="sources-act">
+                            <h4 class="heading subheading">Handeln im Alltag</h4>
+                            <div class="source" id="act-s1"><sup >1</sup> Drury, Benjamin; Kaiser, Cheryl (2014). <a  target="_blank" href="https://spssi.onlinelibrary.wiley.com/doi/10.1111/josi.12083">Allies Against Sexism. The Role of Men in Confronting Sexism.</a>     Journal of Social Issues 70 (4), 637–652</div>
+                        </div>
+
+                        <div class="nav-section level2" id="sources-int">
+                            <h4 class="heading subheading">Über den Tellerrand: Intersektionalität</h4>
+                            <div class="source" id="intersectionality-s1"><sup >1</sup> Halton, Mary (2018) <a  target="_blank" href="https://www.bbc.com/news/science-environment-43294221">Climate change 'impacts women more than men'</a></div>
+                        </div>
+                </div>
+            </div>
         </section>
 
         <section id="navigation">
             <div class="nav-container">
-                <img class="nav-icon" id="nav-prev" src="img/nav/prev.png" alt="vorheriges Kapitel">
-                <img class="nav-icon" id="nav-rewind" src="img/nav/rewind.png" alt="vorherige Unterüberschrift">
-                <img class="nav-icon" id="nav-list" src="img/nav/list.png" alt="Inhaltsverzeichnis">
-                <img class="nav-icon" id="nav-forward" src="img/nav/forward.png" alt="nächste Unterüberschrift">
-                <img class="nav-icon" id="nav-next" src="img/nav/next.png" alt="nächstes Kapitel">
+                <a id="nav-prev"><img class="nav-icon" src="img/nav/prev.png" alt="vorheriges Kapitel"></a>
+                <a id="nav-rewind"><img class="nav-icon" src="img/nav/rewind.png" alt="vorherige Unterüberschrift"></a>
+                <a id="nav-list"><img class="nav-icon" src="img/nav/list.png" alt="Inhaltsverzeichnis"></a>
+                <a id="nav-forward"><img class="nav-icon" src="img/nav/forward.png" alt="nächste Unterüberschrift"></a>
+                <a id="nav-next"><img class="nav-icon" src="img/nav/next.png" alt="nächstes Kapitel"></a>
             </div>
         </section>
             
 
     </body>
+    <script src="main.js"></script> 
 </html>
