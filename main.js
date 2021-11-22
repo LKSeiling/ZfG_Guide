@@ -24,7 +24,6 @@ var calcHeadings = function () {
     }
 };
 
-console.log(headings_all)
 
 
 calcHeadings();
@@ -42,7 +41,6 @@ var checkScroll = function () {
 
     if (curHeight != prevHeight){
         prevHeight = curHeight;
-        console.log(prevHeight)
     } 
 
     if (!navScroll){
@@ -79,11 +77,11 @@ var toggleNav = function () {
 }
 
 var trackPosition = function () {
-    possPositions = checkPosition()
+    calcHeadings();
+    possPositions = checkPosition();
     newPos = possPositions[possPositions.length -1].i;
     if (newPos !== curPos){
         curPos = newPos;
-        console.log(curPos);
     }
 }
 
@@ -98,13 +96,13 @@ var navigate = function(navDirection){
     if (navDirection != 0){
 
         if (navDirection === 2){
-            var nextHeadings = headings.filter(heading => (heading.level === "level1") && (heading.topPos > curScroll+10));
+            var nextHeadings = headings.filter(heading => (heading.level === "level1") && (heading.topPos > curScroll+5));
         } else if (navDirection === 1) {
-            var nextHeadings = headings.filter(heading => (heading.topPos > curScroll+10));
+            var nextHeadings = headings.filter(heading => (heading.topPos > curScroll+5));
         } else  if (navDirection === -1){
-            var nextHeadings = headings.filter(heading => (heading.topPos < curScroll-10));
+            var nextHeadings = headings.filter(heading => (heading.topPos < curScroll-5));
         } else if (navDirection === -2) {
-            var nextHeadings = headings.filter(heading => (heading.level === "level1") && (heading.topPos < curScroll-10));
+            var nextHeadings = headings.filter(heading => (heading.level === "level1") && (heading.topPos < curScroll-5));
         }
 
         if (nextHeadings.length > 0 && navDirection > 0) {
@@ -120,7 +118,6 @@ var navigate = function(navDirection){
         // do nothing
         }
     } else {
-        console.log(navDirection);
         let nextNavSec = headings.filter(heading => (heading.i === 1));
         window.scrollTo(0, nextNavSec[0].topPos);
     } 
@@ -129,8 +126,9 @@ var navigate = function(navDirection){
 
 
 window.addEventListener('scroll', checkScroll);
-nav_nxtChptr.addEventListener('click', function(){navigate(2)});
+
 nav_prvChptr.addEventListener('click', function(){navigate(-2)});
-nav_nxtHeading.addEventListener('click', function(){navigate(1)});
 nav_prvHeading.addEventListener('click', function(){navigate(-1)});
 nav_index.addEventListener('click', function(){navigate(0)});
+nav_nxtHeading.addEventListener('click', function(){navigate(1)});
+nav_nxtChptr.addEventListener('click', function(){navigate(2)});
